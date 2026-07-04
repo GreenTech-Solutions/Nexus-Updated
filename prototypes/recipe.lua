@@ -447,7 +447,7 @@ data:extend({
     },
 	results = {
 	{type = "fluid", name = "high-energetic-photonen-fluid", amount = 600},
-	{type = "item", name = "high-energy-crystal",probability = 0.98,amount = 1},
+	{type = "item", name = "high-energy-crystal",probability = 0.98,amount = 1, ignored_by_productivity = 1},
 	},
 	energy_required = 6,
 --	localised_description = "-----------------",
@@ -490,7 +490,7 @@ data:extend({
     },
 	results = {
 	{type = "fluid", name = "photonen-energy-fluid", amount = 10},
-	{type = "item", name = "critical-photon-cube", probability = 0.98, amount = 1}
+	{type = "item", name = "critical-photon-cube", probability = 0.98, amount = 1, ignored_by_productivity = 1}
 	},
 	energy_required = 4,
 --	localised_description = "-----------------",
@@ -533,7 +533,7 @@ data:extend({
     },
 	results = {
 	{type = "fluid", name = "photonen-energy-fluid", amount = 40},
-	{type = "item", name = "critical-photon-cube", probability = 0.98, amount = 1}
+	{type = "item", name = "critical-photon-cube", probability = 0.98, amount = 1, ignored_by_productivity = 1}
 	},
 	energy_required = 4,
 --	localised_description = "-----------------",

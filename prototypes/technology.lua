@@ -1154,7 +1154,8 @@ data:extend({
     prerequisites = {"promethium-882-research"},
     unit =
     {
-      count_formula = "1.5^L*620",--20
+		count_formula = "1000 * 1.269 ^ (L - 1)",
+      --count_formula = "1.5^L*620",--20
       ingredients =
       {
         {"omega-automation-science-pack", 1},
@@ -1172,7 +1173,7 @@ data:extend({
       },
       time = 60
     },
-    max_level = "infinite",
+    max_level = 30,
     upgrade = true
 },
 ----------------------------------------------------------------
@@ -1198,7 +1199,8 @@ data:extend({
     prerequisites = {"promethium-882-research"},
     unit =
     {
-      count_formula = "1.5^L*665",--10
+		count_formula = "1000 * 1.269 ^ (L - 1)",
+      --count_formula = "1.5^L*665",--10
       ingredients =
       {
         {"omega-automation-science-pack", 1},
@@ -1216,7 +1218,7 @@ data:extend({
       },
       time = 60
     },
-    max_level = "infinite",
+    max_level = 30,
     upgrade = true
 },
 ----------------------------------------------------------------
@@ -1242,25 +1244,26 @@ data:extend({
     prerequisites = {"promethium-882-research"},
     unit =
     {
-      count_formula = "1.5^L*665",--10
+		count_formula = "2000 * 1.269 ^ (L - 1)",
+      --count_formula = "1.5^L*665",--10
       ingredients =
       {
-        {"omega-automation-science-pack", 2},
-        {"omega-logistic-science-pack", 2},
-        {"omega-military-science-pack", 2},
-        {"omega-chemical-science-pack", 2},
-        {"omega-production-science-pack", 2},
-        {"omega-utility-science-pack", 2},
-        {"omega-space-science-pack", 2},
-        {"omega-metallurgic-science-pack", 2},
-        {"omega-electromagnetic-science-pack", 2},
-        {"omega-agricultural-science-pack", 2},
-        {"omega-cryogenic-science-pack", 2},
-		{"promethium-882-science-pack", 2}
+        {"omega-automation-science-pack", 1},
+        {"omega-logistic-science-pack", 1},
+        {"omega-military-science-pack", 1},
+        {"omega-chemical-science-pack", 1},
+        {"omega-production-science-pack", 1},
+        {"omega-utility-science-pack", 1},
+        {"omega-space-science-pack", 1},
+        {"omega-metallurgic-science-pack", 1},
+        {"omega-electromagnetic-science-pack", 1},
+        {"omega-agricultural-science-pack", 1},
+        {"omega-cryogenic-science-pack", 1},
+		{"promethium-882-science-pack", 1}
       },
       time = 60
     },
-    max_level = "infinite",
+    max_level = 30,
     upgrade = true
 },
 ----------------------------------------------------------------
