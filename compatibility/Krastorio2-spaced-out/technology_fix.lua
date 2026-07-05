@@ -1121,7 +1121,7 @@ data:extend({
 		{"kr-matter-tech-card", 1},
 	    {"kr-advanced-tech-card", 1},
 	    {"kr-singularity-tech-card", 1},
-        {"oelectromagnetic-science-pack", 2},
+        {"electromagnetic-science-pack", 2},
       },
       time = 60
     }
@@ -1317,7 +1317,7 @@ data:extend({
       },
       time = 60
     },
-    max_level = 30
+    max_level = 30,
     upgrade = true
 },
 ----------------------------------------------------------------
