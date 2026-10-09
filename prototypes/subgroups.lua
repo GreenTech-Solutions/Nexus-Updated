@@ -9,7 +9,7 @@ data:extend({
 {
 	type = "item-group",
 	name = "nexus",
-	icon = "__Nexus-Graphics__/graphics/icons/gui-group-icon.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/icons/gui-group-icon.png",
 	icon_size = 128,
 	order = "e"
 },
@@ -37,7 +37,7 @@ data:extend({
 {
   type = "item-group",
   name = "magma-energy",													--not in use
-  icon = "__Nexus-Graphics__/graphics/icons/gui-group-icon-2.png",
+  icon = "__Nexus-Graphics-Updated__/graphics/icons/gui-group-icon-2.png",
   icon_size = 128,
   order = "f"
 },

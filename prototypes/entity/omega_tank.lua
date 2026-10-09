@@ -14,7 +14,7 @@ data:extend({
 {
     name = "omega-tank",
     type = "storage-tank",
-    icon = "__Nexus-Graphics__/graphics/items/omega-tank.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/omega-tank.png",
 	icon_size = 64,
 	flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 1.2, result = "omega-tank"},
@@ -41,32 +41,32 @@ data:extend({
     window_bounding_box = { { -0.125, 0.6875 }, { 0.1875, 1.1875 } },
     pictures = {
             picture = {
-                filename = "__Nexus-Graphics__/graphics/entity/omega-tank.png",
+                filename = "__Nexus-Graphics-Updated__/graphics/entity/omega-tank.png",
                 width = 512,
                 height = 512,
                 shift = {0,-0.2},
 	            scale = 0.47/2,---0.44
             },
             window_background = {
-                filename = "__Nexus-Graphics__/graphics/other/64_empty.png",
+                filename = "__Nexus-Graphics-Updated__/graphics/other/64_empty.png",
                 width = 64,
                 height = 64,
                 scale = 1,
             },
             fluid_background = {
-                filename = "__Nexus-Graphics__/graphics/other/64_empty.png",
+                filename = "__Nexus-Graphics-Updated__/graphics/other/64_empty.png",
                 width = 64,
                 height = 64,
                 scale = 1,
             },
             flow_sprite = {
-                filename = "__Nexus-Graphics__/graphics/other/64_empty.png",
+                filename = "__Nexus-Graphics-Updated__/graphics/other/64_empty.png",
                 width = 64,
                 height = 64,
                 scale = 1,
             },
             gas_flow = {
-                filename = "__Nexus-Graphics__/graphics/other/64_empty.png",
+                filename = "__Nexus-Graphics-Updated__/graphics/other/64_empty.png",
                 width = 64,
                 height = 64,
                 scale = 1,

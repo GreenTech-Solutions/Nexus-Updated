@@ -1,8 +1,8 @@
 -- control.lua (Endgültige Version mit Korrigierter Abbau-Logik)
 
-local upgrades = require("__Nexus__.scripts.accumulator_upgrades")
-local logic = require("__Nexus__.scripts.logic")
-local gui = require("__Nexus__.scripts.gui")
+local upgrades = require("__Nexus-Updated__.scripts.accumulator_upgrades")
+local logic = require("__Nexus-Updated__.scripts.logic")
+local gui = require("__Nexus-Updated__.scripts.gui")
 
 -- ============================================================================
 -- NEXUS WELCOME NOTIFICATION SYSTEM

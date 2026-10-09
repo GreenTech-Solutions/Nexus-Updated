@@ -13,7 +13,7 @@ function omega_accumulator_picture(tint, repeat_count)
       layers =
       {
         {
-          filename = "__Nexus-Graphics__/graphics/entity/omega-accumulator.png",
+          filename = "__Nexus-Graphics-Updated__/graphics/entity/omega-accumulator.png",
           priority = "high",
           width = 130,
           height = 189,
@@ -91,7 +91,7 @@ data:extend({
   {
     type = "accumulator",
     name = "omega-accumulator",
-    icon = "__Nexus-Graphics__/graphics/items/omega-accumulator.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/omega-accumulator.png",
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.1, result = "omega-accumulator"},
     fast_replaceable_group = "accumulator",

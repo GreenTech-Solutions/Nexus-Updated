@@ -74,7 +74,7 @@ omega_fluid_wagon,
         name = "omega-locomotive",
 		icons = {
         {
-            icon = "__Nexus-Graphics__/graphics/items/omega-locomotive.png",
+            icon = "__Nexus-Graphics-Updated__/graphics/items/omega-locomotive.png",
             icon_size = 64,
             tint = grey_silver
         }

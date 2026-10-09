@@ -33,16 +33,16 @@ end
 
 --Krastorio2-spaced-out compatibility
 if mods["Krastorio2-spaced-out"] then
-    --require("__Nexus__.compatibility.Krastorio2-spaced-out.omega_lab_tech_card_fix")
-	require("__Nexus__.compatibility.Krastorio2-spaced-out.technology_fix")
-	--require("__Nexus__.compatibility.Krastorio2-spaced-out.remove_tech")
-	require("__Nexus__.compatibility.Krastorio2-spaced-out.entity_update")
+    --require("__Nexus-Updated__.compatibility.Krastorio2-spaced-out.omega_lab_tech_card_fix")
+	require("__Nexus-Updated__.compatibility.Krastorio2-spaced-out.technology_fix")
+	--require("__Nexus-Updated__.compatibility.Krastorio2-spaced-out.remove_tech")
+	require("__Nexus-Updated__.compatibility.Krastorio2-spaced-out.entity_update")
 end
 
 --[[
 --atan-nuclear-science compatibility
 if mods["atan-nuclear-science"] then
-    --require("__Nexus__.compatibility.atan-nuclear-science.omega_lab_science_fix")
+    --require("__Nexus-Updated__.compatibility.atan-nuclear-science.omega_lab_science_fix")
 	data.raw["lab"]["omega-lab"].inputs =
     {
 	  "automation-science-pack",
@@ -69,7 +69,7 @@ end
 log(serpent.dump(data.raw["lab"]["omega-lab"]))
 --atan-nuclear-science compatibility
 --if mods["atan-nuclear-science"] then
-    --require("__Nexus__.compatibility.atan-nuclear-science.omega_lab_science_fix")
+    --require("__Nexus-Updated__.compatibility.atan-nuclear-science.omega_lab_science_fix")
 	--table.insert(data.raw["lab"]["omega-lab"]["inputs"], "nuclear-science-pack")
 	    -- Add wood and steam science packs to all labs' inputs except these
 for name ,tool in pairs(data.raw["tool"]) do

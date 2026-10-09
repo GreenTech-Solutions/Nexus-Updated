@@ -8,7 +8,7 @@ data:extend({
     name = "critical-photon-cube-energy",
     empty_slot_sprite =
     {
-      filename = "__Nexus__/graphics/icons/no-photon-energy.png",
+      filename = "__Nexus-Updated__/graphics/icons/no-photon-energy.png",
       priority = "extra-high-no-scale",
       size = 64,
       mipmap_count = 2,
@@ -19,7 +19,7 @@ data:extend({
 
     icon =
     {
-      filename = "__Nexus__/graphics/icons/no-photon-energy.png",
+      filename = "__Nexus-Updated__/graphics/icons/no-photon-energy.png",
       priority = "extra-high-no-scale",
       width = 64,
       height = 64,

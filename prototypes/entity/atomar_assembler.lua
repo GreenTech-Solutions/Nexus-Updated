@@ -10,7 +10,7 @@ data:extend({
 {
     name = "atomar-assembler",
 	type = "assembling-machine",
-    icon = "__Nexus-Graphics__/graphics/items/atomar-assembler.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/atomar-assembler.png",
 	icon_size = 64,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
 	place_result = "atomar-assembler",
@@ -67,7 +67,7 @@ data:extend({
 	graphics_set =
     {
         animation = {
-            filename = "__Nexus-Graphics__/graphics/entity/atomar-assembler.png",
+            filename = "__Nexus-Graphics-Updated__/graphics/entity/atomar-assembler.png",
             size = {512*2,512*2},
             shift = {0, 0},
 	        scale = 0.35,
@@ -80,7 +80,7 @@ data:extend({
             {
               animation = 
               {
-                filename = "__Nexus-Graphics__/graphics/entity/atomar-assembler-animation.png",
+                filename = "__Nexus-Graphics-Updated__/graphics/entity/atomar-assembler-animation.png",
                 size = {512*2,512*2},
                 shift = {0, 0},
 	            scale = 0.35,

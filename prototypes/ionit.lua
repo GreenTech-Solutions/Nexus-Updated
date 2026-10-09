@@ -28,7 +28,7 @@ planetsetting.map_gen_settings.autoplace_settings.entity.settings["ionit-ore"] =
 local ionit_ore = {
   type = "resource",
   name = "ionit-ore",
-  icon = "__Nexus-Graphics__/graphics/icons/ionit-ore.png",
+  icon = "__Nexus-Graphics-Updated__/graphics/icons/ionit-ore.png",
   flags = {"placeable-neutral"},
   order = "a-b-b",
   tree_removal_probability = 0.1,
@@ -59,7 +59,7 @@ local ionit_ore = {
   {
     sheet =
     {
-	  filename = "__Nexus-Graphics__/graphics/icons/ionit.png",
+	  filename = "__Nexus-Graphics-Updated__/graphics/icons/ionit.png",
 	  icon_size = 64,
       priority = "extra-high",
       size = 128,
@@ -71,7 +71,7 @@ local ionit_ore = {
   },
      stages_effect = {
       sheet = {
-        filename = "__Nexus-Graphics__/graphics/icons/ionit.png",
+        filename = "__Nexus-Graphics-Updated__/graphics/icons/ionit.png",
         priority = "extra-high",
         width = 64,
         height = 64,
@@ -80,7 +80,7 @@ local ionit_ore = {
         variation_count = 8,
         draw_as_glow = true,
         hr_version = {
-          filename = "__Nexus-Graphics__/graphics/icons/ionit-glow.png",
+          filename = "__Nexus-Graphics-Updated__/graphics/icons/ionit-glow.png",
           priority = "extra-high",
           width = 128,
           height = 128,

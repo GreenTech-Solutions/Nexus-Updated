@@ -10,7 +10,7 @@ data:extend({
 {
     name = "omega-beacon",
     type = "beacon",
-    icon = "__Nexus-Graphics__/graphics/items/omega-beacon.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/omega-beacon.png",
     icon_size = 64,
     flags = {"player-creation","placeable-neutral","not-upgradable"},
     max_health = 500,
@@ -52,7 +52,7 @@ data:extend({
                     layers = {
                         -- Base
                         {
-                            filename = "__Nexus-Graphics__/graphics/entity/omega-beacon.png",
+                            filename = "__Nexus-Graphics-Updated__/graphics/entity/omega-beacon.png",
                             width = 232,
                             height = 186,
                             shift = util.by_pixel(13, 1.5),
@@ -60,7 +60,7 @@ data:extend({
                         },
                             -- Shadow
                         {
-                            filename = "__Nexus-Graphics__/graphics/entity/omega-beacon-shadow.png",
+                            filename = "__Nexus-Graphics-Updated__/graphics/entity/omega-beacon-shadow.png",
                             width = 116*2,
                                 height = 93*2,
                                 shift = util.by_pixel(13, 1.5),
@@ -78,7 +78,7 @@ data:extend({
                         layers = {
                             -- Base
                             {
-                                filename = "__Nexus-Graphics__/graphics/entity/omega-beacon-animation.png",
+                                filename = "__Nexus-Graphics-Updated__/graphics/entity/omega-beacon-animation.png",
                                 width = 54*2,
                                 height = 50*2,
                                 line_length = 8,
@@ -89,7 +89,7 @@ data:extend({
                             },
                             -- Shadow
                             {
-                                filename = "__Nexus-Graphics__/graphics/entity/omega-beacon-top-shadow.png",
+                                filename = "__Nexus-Graphics-Updated__/graphics/entity/omega-beacon-top-shadow.png",
                                 width = 63*2,
                                 height = 49*2,
                                 line_length = 8,

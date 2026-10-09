@@ -18,7 +18,7 @@ data:extend({
     {
         name = "omega-lab",
         type = "lab",
-        icon ="__Nexus-Graphics__/graphics/entity/omega-lab.png",
+        icon ="__Nexus-Graphics-Updated__/graphics/entity/omega-lab.png",
         icon_size = 512,
         flags = {"player-creation","placeable-neutral"},
         max_health = 1000,
@@ -90,7 +90,7 @@ data:extend({
             module_slots = 6
         }, 
         off_animation = {
-            filename ="__Nexus-Graphics__/graphics/entity/omega-lab.png",
+            filename ="__Nexus-Graphics-Updated__/graphics/entity/omega-lab.png",
             size = {512,512},
             shift = {0, 0},
 	        scale = 0.35,
@@ -102,7 +102,7 @@ data:extend({
         on_animation = {
             layers = {
                 {
-                    filename ="__Nexus-Graphics__/graphics/entity/omega-lab-animation.png",
+                    filename ="__Nexus-Graphics-Updated__/graphics/entity/omega-lab-animation.png",
 					size = {512,512},
 					shift = {0, 0},
 					scale = 0.35,

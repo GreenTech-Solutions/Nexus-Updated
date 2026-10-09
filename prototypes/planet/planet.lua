@@ -1,4 +1,4 @@
-local nexus_map_gen = require("__Nexus__.prototypes.planet.nexus_map_gen")
+local nexus_map_gen = require("__Nexus-Updated__.prototypes.planet.nexus_map_gen")
 local asteroid_util = require("__space-age__.prototypes.planet.asteroid-spawn-definitions")
 
 local effects = require("__core__.lualib.surface-render-parameter-effects")
@@ -15,8 +15,8 @@ data:extend({
 {
     type = "planet",
     name = "nexus",
-    icon = "__Nexus-Graphics__/graphics/icons/nexus.png",
-    starmap_icon = "__Nexus-Graphics__/graphics/icons/starmap-planet-nexus.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/icons/nexus.png",
+    starmap_icon = "__Nexus-Graphics-Updated__/graphics/icons/starmap-planet-nexus.png",
     starmap_icon_size = 512,
     icon_size = 64,
     map_gen_settings = nexus_map_gen(),

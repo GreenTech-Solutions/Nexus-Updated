@@ -10,7 +10,7 @@ data:extend({
 {
 	name = "element882",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/promethium-882.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/promethium-882.png",
 	icon_size = 512,
 	essential = true,
 	prerequisites = {"planet-discovery-nexus"},
@@ -24,7 +24,7 @@ data:extend({
 {
 	name = "ionit-liquefaction",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/liquid-ionit-matter.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/liquid-ionit-matter.png",
 	icon_size = 512,
 	essential = true,
 	effects = {
@@ -56,7 +56,7 @@ data:extend({
 {
 	name = "atomacer",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/atomacer.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/atomacer.png",
 	icon_size = 512,
 	essential = true,
 	effects = {
@@ -100,7 +100,7 @@ data:extend({
 {
 	name = "matter-stabilization",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/matter-stabilization.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/matter-stabilization.png",
 	icon_size = 1024,
 	essential = true,
 	effects = {
@@ -120,7 +120,7 @@ data:extend({
 {
 	name = "rare-metal-refining",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/rare-metal-refining.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/rare-metal-refining.png",
 	icon_size = 1024,
 	essential = true,
 	effects = {
@@ -157,7 +157,7 @@ data:extend({
 {
 	name = "nexus-sand-processing",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/nexus-sand-processing.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/nexus-sand-processing.png",
 	icon_size = 968,
 	essential = true,
 	effects = {
@@ -191,7 +191,7 @@ data:extend({
 {
 	name = "promethium-882-research",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/promethium-882-science-pack.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/promethium-882-science-pack.png",
 	icon_size = 256,
 	essential = true,
 	effects = {
@@ -236,7 +236,7 @@ data:extend({
 {
 	name = "diamond-processing",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/diamond-processing.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/diamond-processing.png",
 	icon_size = 1024,
 	essential = true,
 	effects = {
@@ -270,7 +270,7 @@ data:extend({
 {
 	name = "omega-components",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/omega-components.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/omega-components.png",
 	icon_size = 1024,
 	essential = true,
 	effects = {
@@ -311,7 +311,7 @@ data:extend({
 {
 	name = "singularity-crystal-assembling",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/singularity-crystal-assembling.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/singularity-crystal-assembling.png",
 	icon_size = 256,
 	essential = true,
 	effects = {
@@ -356,7 +356,7 @@ data:extend({
 {
 	name = "photon-electronics",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/photon-electronics.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/photon-electronics.png",
 	icon_size = 1024,
 	essential = true,
 	effects = {
@@ -401,7 +401,7 @@ data:extend({
 {
 	name = "antimatter-science-pack",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/antimatter-science-pack.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/antimatter-science-pack.png",
 	icon_size = 256,
 	essential = true,
 	effects = {
@@ -435,7 +435,7 @@ data:extend({
 {
 	name = "antimatter-produktion",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/antimatter-produktion.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/antimatter-produktion.png",
 	icon_size = 1024,
 	essential = true,
 	effects = {
@@ -482,7 +482,7 @@ data:extend({
 {
 	name = "photon-stream-thruster",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/photon-stream-thruster.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/photon-stream-thruster.png",
 	icon_size = 256,
 	essential = true,
 	effects = {
@@ -518,7 +518,7 @@ data:extend({
 {
 	name = "warp-drive-engine",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/warp-drive-engine.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/warp-drive-engine.png",
 	icon_size = 256,
 	essential = true,
 	effects = {
@@ -556,7 +556,7 @@ data:extend({
 {
 	name = "fusion-power-mk2",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/fusion-power-mk2.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/fusion-power-mk2.png",
 	icon_size = 128,
 	essential = true,
 	effects = {
@@ -592,7 +592,7 @@ data:extend({
 {
 	name = "photon-enrichment-chamber-mk2",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/photon-enrichment-chamber-mk2.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/photon-enrichment-chamber-mk2.png",
 	icon_size = 1024,
 	essential = true,
 	effects = {
@@ -628,7 +628,7 @@ data:extend({
 {
 	name = "omega-substation",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/omega-substation.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/omega-substation.png",
 	icon_size = 256,
 	essential = true,
 	effects = {
@@ -661,7 +661,7 @@ data:extend({
 {
 	name = "omega-tank",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/omega-tank.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/omega-tank.png",
 	icon_size = 512,
 	essential = true,
 	effects = {
@@ -694,7 +694,7 @@ data:extend({
 {
 	name = "omega-accumulator",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/omega-accumulator.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/omega-accumulator.png",
 	icon_size = 256,
 	essential = true,
 	effects = {
@@ -727,7 +727,7 @@ data:extend({
 {
 	name = "omega-beacon",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/omega-beacon.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/omega-beacon.png",
 	icon_size = 128,
 	essential = true,
 	effects = {
@@ -761,7 +761,7 @@ data:extend({
 {
 	name = "zero-point-energy-engine-core",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/zero-point-energy-engine-core.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/zero-point-energy-engine-core.png",
 	icon_size = 128,
 	essential = true,
 	effects = {
@@ -796,7 +796,7 @@ data:extend({
 {
 	name = "zero-point-energy-engine-injector-left",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/zero-point-energy-engine-injector-left.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/zero-point-energy-engine-injector-left.png",
 	icon_size = 128,
 	essential = true,
 	effects = {
@@ -830,7 +830,7 @@ data:extend({
 {
 	name = "zero-point-energy-engine-injector-up",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/zero-point-energy-engine-injector-up.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/zero-point-energy-engine-injector-up.png",
 	icon_size = 128,
 	essential = true,
 	effects = {
@@ -864,7 +864,7 @@ data:extend({
 {
 	name = "zero-point-energy-engine-injector-right",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/zero-point-energy-engine-injector-right.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/zero-point-energy-engine-injector-right.png",
 	icon_size = 128,
 	essential = true,
 	effects = {
@@ -903,7 +903,7 @@ data:extend({
 {
 	name = "zpe-core-limit-1",
     type = "technology",
-    icon = "__Nexus-Graphics__/graphics/tech/zpe-core-limit.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/tech/zpe-core-limit.png",
     icon_size = 128,
 	prerequisites = {"zero-point-energy-engine-core"},
     unit =
@@ -931,7 +931,7 @@ data:extend({
     {
     name = "zpe-core-limit-2",
     type = "technology",
-    icon = "__Nexus-Graphics__/graphics/tech/zpe-core-limit.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/tech/zpe-core-limit.png",
     icon_size = 128,
     prerequisites = {"zpe-core-limit-1", "omega-module-mk3"},
     unit =
@@ -959,7 +959,7 @@ data:extend({
     {
     name = "zpe-core-limit-3",
     type = "technology",
-    icon = "__Nexus-Graphics__/graphics/tech/zpe-core-limit.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/tech/zpe-core-limit.png",
     icon_size = 128,
     prerequisites = {"zpe-core-limit-2", "antimatter-science-pack"},
     unit =
@@ -993,7 +993,7 @@ data:extend({
 {
     name = "planet-nexus-scanning",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/nexus-scanning.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/nexus-scanning.png",
     icon_size = 512,
     essential = true,
     prerequisites = {"biter-egg-handling", "fusion-reactor"},
@@ -1021,7 +1021,7 @@ data:extend({
 {
     name = "advanced-magnetic-shielding",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/shielding.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/shielding.png",
     icon_size = 128,
     essential = true,
     prerequisites = {"planet-nexus-scanning"},
@@ -1046,7 +1046,7 @@ data:extend({
 {
     name = "advanced-stable-electronic",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/stable-electronic.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/stable-electronic.png",
     icon_size = 128,
     essential = true,
     prerequisites = {"planet-nexus-scanning"},
@@ -1071,7 +1071,7 @@ data:extend({
 {
     name = "advanced-stronger-armor",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/stronger-armor.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/stronger-armor.png",
     icon_size = 128,
     essential = true,
     prerequisites = {"planet-nexus-scanning"},
@@ -1100,7 +1100,7 @@ data:extend({
 {
     name = "planet-discovery-nexus",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/nexus.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/nexus.png",
     icon_size = 256,
     essential = true,
     effects = {
@@ -1140,7 +1140,7 @@ data:extend({
 {
 	name = "rare-element-productivity",
     type = "technology",
-    icons = util.technology_icon_constant_recipe_productivity("__Nexus-Graphics__/graphics/tech/rare-element-productivity.png"),
+    icons = util.technology_icon_constant_recipe_productivity("__Nexus-Graphics-Updated__/graphics/tech/rare-element-productivity.png"),
     icon_size = 256,
 	essential = true,
     effects =
@@ -1180,7 +1180,7 @@ data:extend({
 {
 	name = "high-energetic-photonen-fluid-productivity",
     type = "technology",
-    icons = util.technology_icon_constant_recipe_productivity("__Nexus-Graphics__/graphics/tech/high-energetic-photonen-fluid-productivity.png"),
+    icons = util.technology_icon_constant_recipe_productivity("__Nexus-Graphics-Updated__/graphics/tech/high-energetic-photonen-fluid-productivity.png"),
     icon_size = 256,
 	essential = true,
     effects =
@@ -1225,7 +1225,7 @@ data:extend({
 {
 	name = "photonen-energy-fluid-productivity",
     type = "technology",
-    icons = util.technology_icon_constant_recipe_productivity("__Nexus-Graphics__/graphics/tech/photonen-energy-fluid-productivity.png"),
+    icons = util.technology_icon_constant_recipe_productivity("__Nexus-Graphics-Updated__/graphics/tech/photonen-energy-fluid-productivity.png"),
     icon_size = 256,
 	essential = true,
     effects =
@@ -1270,7 +1270,7 @@ data:extend({
 {
 	name = "zpe-core-efficiency",
     type = "technology",
-    icons = util.technology_icon_constant_recipe_productivity("__Nexus-Graphics__/graphics/tech/zpe-core-efficiency.png"),
+    icons = util.technology_icon_constant_recipe_productivity("__Nexus-Graphics-Updated__/graphics/tech/zpe-core-efficiency.png"),
     icon_size = 256,
 	essential = true,
     effects =
@@ -1329,7 +1329,7 @@ data:extend({
 {
 	name = "omega-module-mk1",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/omega-module-mk1.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/omega-module-mk1.png",
 	icon_size = 1024,
 	essential = true,
 	effects = {
@@ -1362,7 +1362,7 @@ data:extend({
 {
 	name = "omega-module-mk2",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/omega-module-mk2.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/omega-module-mk2.png",
 	icon_size = 1024,
 	essential = true,
 	effects = {
@@ -1395,7 +1395,7 @@ data:extend({
 {
 	name = "omega-module-mk3",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/omega-module-mk3.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/omega-module-mk3.png",
 	icon_size = 1024,
 	essential = true,
 	effects = {
@@ -1428,7 +1428,7 @@ data:extend({
 {
 	name = "omega-module-mk4",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/omega-module-mk4.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/omega-module-mk4.png",
 	icon_size = 1024,
 	essential = true,
 	effects = {
@@ -1462,7 +1462,7 @@ data:extend({
 {
 	name = "omega-quality-module",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/omega-quality-module.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/omega-quality-module.png",
 	icon_size = 128,
 	essential = true,
 	effects = {
@@ -1498,7 +1498,7 @@ data:extend({
 {
 	name = "starmap-mapping",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/starmap-mapping.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/starmap-mapping.png",
 	icon_size = 128,
 	essential = true,
 	effects = {},
@@ -1529,7 +1529,7 @@ data:extend({
 {
 	name = "warp-drive-frame",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/warp-drive-frame.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/warp-drive-frame.png",
 	icon_size = 128,
 	essential = true,
 	effects = {
@@ -1563,7 +1563,7 @@ data:extend({
 {
 	name = "exotic-matter-containment-fields-generator",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/exotic-matter-containment-fields-generator.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/exotic-matter-containment-fields-generator.png",
 	icon_size = 128,
 	essential = true,
 	effects = {
@@ -1597,7 +1597,7 @@ data:extend({
 {
 	name = "gravity-fields-generator",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/gravity-fields-generator.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/gravity-fields-generator.png",
 	icon_size = 128,
 	essential = true,
 	effects = {
@@ -1631,7 +1631,7 @@ data:extend({
 {
 	name = "antimatter-containment-fields-generator",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/antimatter-containment-fields-generator.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/antimatter-containment-fields-generator.png",
 	icon_size = 128,
 	essential = true,
 	effects = {
@@ -1665,7 +1665,7 @@ data:extend({
 {
 	name = "singularity-core",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/singularity-core.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/singularity-core.png",
 	icon_size = 128,
 	essential = true,
 	effects = {
@@ -1839,7 +1839,7 @@ data:extend({
 {
 	name = "omega-accumulator-upgrade1",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/omega-accumulator.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/omega-accumulator.png",
 	icon_size = 256,
 	essential = true,
 	effects = {
@@ -1871,7 +1871,7 @@ data:extend({
 {
 	name = "omega-accumulator-upgrade2",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/omega-accumulator.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/omega-accumulator.png",
 	icon_size = 256,
 	essential = true,
 	effects = {
@@ -1909,7 +1909,7 @@ data:extend({
 {
 	name = "omega-train",
 	type = "technology",
-	icon = "__Nexus-Graphics__/graphics/tech/omega-train.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/tech/omega-train.png",
 	icon_size = 256,
 	essential = true,
 	effects = {
@@ -1951,7 +1951,7 @@ data:extend({
 ----------------------------------------------------------------
 -- NEXUS-THREAT LOGIK
 ----------------------------------------------------------------
-if mods["Nexus-Threat"] and settings.startup["nexus-threat-activation"].value then
+if mods["Nexus-Threat-Updated"] and settings.startup["nexus-threat-activation"].value then
 
   -- 1. Register a new technology (nexus-storm-prediction)
   -- We are using data:extend because this technology does not yet exist.
@@ -1959,7 +1959,7 @@ if mods["Nexus-Threat"] and settings.startup["nexus-threat-activation"].value th
     {
       type = "technology",
       name = "nexus-storm-prediction",
-      icon = "__Nexus-Graphics__/graphics/tech/nexus-storm-prediction.png", 
+      icon = "__Nexus-Graphics-Updated__/graphics/tech/nexus-storm-prediction.png", 
       icon_size = 256,
       effects = {}, 
       prerequisites = {"omega-components"},
@@ -1991,7 +1991,7 @@ if mods["Nexus-Threat"] and settings.startup["nexus-threat-activation"].value th
   data.raw["technology"]["planet-discovery-nexus"] = {
     type = "technology",
     name = "planet-discovery-nexus",
-    icon = "__Nexus-Graphics__/graphics/tech/nexus.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/tech/nexus.png",
     icon_size = 256,
     essential = true,
     effects = {

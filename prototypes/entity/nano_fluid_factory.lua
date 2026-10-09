@@ -10,7 +10,7 @@ data:extend({
 {
     name = "nano-fluid-factory",
 	type = "assembling-machine",
-    icon = "__Nexus-Graphics__/graphics/items/nano-fluid-factory.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/nano-fluid-factory.png",
 	icon_size = 64,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
 	place_result = "nano-fluid-factory",
@@ -75,7 +75,7 @@ data:extend({
 	graphics_set =
     {
         animation = {
-            filename = "__Nexus-Graphics__/graphics/entity/nano-fluid-factory.png",
+            filename = "__Nexus-Graphics-Updated__/graphics/entity/nano-fluid-factory.png",
             size = {512,512},
             shift = {0, 0},
 	        scale = 0.35,
@@ -88,7 +88,7 @@ data:extend({
             {
               animation = 
               {
-                filename = "__Nexus-Graphics__/graphics/entity/nano-fluid-factory-animation.png",
+                filename = "__Nexus-Graphics-Updated__/graphics/entity/nano-fluid-factory-animation.png",
                 size = {512,512},
                 shift = {0, 0},
 	            scale = 0.35,

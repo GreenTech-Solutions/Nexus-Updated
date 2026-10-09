@@ -1,5 +1,5 @@
 
-local asteroid_util = require("__Nexus__.starmap_locations.add_asteroiden_spawn")
+local asteroid_util = require("__Nexus-Updated__.starmap_locations.add_asteroiden_spawn")
 --local asteroid_util = require("__space-age__.prototypes.planet.asteroid-spawn-definitions")
 
 --data.raw.planet.aquilo.asteroid_spawn_influence = 0,
@@ -15,9 +15,9 @@ data:extend({
   {
     type = "space-location",
     name = "sol",
-    icon = "__Nexus-Graphics__/graphics/icons/sol.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/icons/sol.png",
 	icon_size = 512,
-	starmap_icon = "__Nexus-Graphics__/graphics/icons/sol.png",
+	starmap_icon = "__Nexus-Graphics-Updated__/graphics/icons/sol.png",
     starmap_icon_size = 512,
     --order = "h[solar-system-edge]",
     subgroup = "planets",
@@ -34,9 +34,9 @@ data:extend({
   {
     type = "space-location",
     name = "oort-cloud",
-    icon = "__Nexus-Graphics__/graphics/icons/oort-cloud.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/icons/oort-cloud.png",
 	icon_size = 512,
-    starmap_icon = "__Nexus-Graphics__/graphics/icons/oort-cloud.png",
+    starmap_icon = "__Nexus-Graphics-Updated__/graphics/icons/oort-cloud.png",
     starmap_icon_size = 512,
     --order = "i[shattered-planet]",
     subgroup = "planets",

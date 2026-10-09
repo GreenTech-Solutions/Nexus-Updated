@@ -10,7 +10,7 @@ data:extend({
 {
     name = "roller-factory",
 	type = "assembling-machine",
-    icon = "__Nexus-Graphics__/graphics/items/roller-factory.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/roller-factory.png",
 	icon_size = 64,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
 	place_result = "roller-factory",
@@ -67,7 +67,7 @@ data:extend({
 	graphics_set =
     {
         animation = {
-            filename = "__Nexus-Graphics__/graphics/entity/roller-factory.png",
+            filename = "__Nexus-Graphics-Updated__/graphics/entity/roller-factory.png",
             size = {512,512},
             width = 512,
             height = 512,
@@ -82,7 +82,7 @@ data:extend({
             {
               animation = 
               {
-                filename = "__Nexus-Graphics__/graphics/entity/roller-factory-animation.png",
+                filename = "__Nexus-Graphics-Updated__/graphics/entity/roller-factory-animation.png",
                 size = {512,512},
                 width = 512,
                 height = 512,

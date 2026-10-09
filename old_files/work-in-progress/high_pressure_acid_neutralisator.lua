@@ -14,7 +14,7 @@ data:extend({
     {
         name = "high-pressure-acid-generator",
         type = "generator",
-        icon = "__Nexus__/graphics/items/high-pressure-acid-generator.png",
+        icon = "__Nexus-Updated__/graphics/items/high-pressure-acid-generator.png",
         icon_size = 64,
         flags = {"player-creation","placeable-neutral"},
         max_health = 300,
@@ -56,7 +56,7 @@ data:extend({
         horizontal_animation = {
             layers = {
                 {
-                    filename = "__Nexus__/graphics/entity/high-pressure-acid-generator-animation.png",
+                    filename = "__Nexus-Updated__/graphics/entity/high-pressure-acid-generator-animation.png",
                     size = {512*2,512*2},
                     scale = 0.77/2,
                     line_length = 5,
@@ -66,7 +66,7 @@ data:extend({
                     shift = {0,-0.5} 
                 },
                 {
-                    filename = "__Nexus__/graphics/icons/high-pressure-acid-generator-pipe.png",
+                    filename = "__Nexus-Updated__/graphics/icons/high-pressure-acid-generator-pipe.png",
                     size = {512*2,512*2},
                     scale = 0.77/2,
                     line_length = 1,
@@ -81,7 +81,7 @@ data:extend({
         vertical_animation = {
             layers = {
                 {
-                    filename = "__Nexus__/graphics/entity/high-pressure-acid-generator-animation.png",
+                    filename = "__Nexus-Updated__/graphics/entity/high-pressure-acid-generator-animation.png",
                     size = {512*2,512*2},
                     scale = 0.77/2,
                     line_length = 5,
@@ -91,7 +91,7 @@ data:extend({
                     shift = {0,-0.5} 
                 },
                 {
-                    filename = "__Nexus__/graphics/icons/high-pressure-acid-generator-pipe.png",
+                    filename = "__Nexus-Updated__/graphics/icons/high-pressure-acid-generator-pipe.png",
                     size = {512*2,512*2},
                     scale = 0.77/2,
                     line_length = 1,

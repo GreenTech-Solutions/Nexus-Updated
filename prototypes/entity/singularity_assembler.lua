@@ -10,7 +10,7 @@ data:extend({
 {
     name = "singularity-assembler",
 	type = "assembling-machine",
-    icon = "__Nexus-Graphics__/graphics/items/singularity-assembler.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/singularity-assembler.png",
 	icon_size = 64,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
 	place_result = "singularity-assembler",
@@ -77,7 +77,7 @@ data:extend({
 	graphics_set =
     {
         animation = {
-            filename = "__Nexus-Graphics__/graphics/entity/singularity-assembler.png",
+            filename = "__Nexus-Graphics-Updated__/graphics/entity/singularity-assembler.png",
             size = {512,512},
             shift = {0, 0},
 	        scale = 0.35,
@@ -90,7 +90,7 @@ data:extend({
             {
               animation = 
               {
-                filename = "__Nexus-Graphics__/graphics/entity/singularity-assembler-animation.png",
+                filename = "__Nexus-Graphics-Updated__/graphics/entity/singularity-assembler-animation.png",
                 size = {512,512},
                 shift = {0, 0},
 	            scale = 0.35,

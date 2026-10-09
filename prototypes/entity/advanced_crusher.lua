@@ -10,7 +10,7 @@ data:extend({
 {
     name = "advanced-crusher",
 	type = "assembling-machine",
-    icon = "__Nexus-Graphics__/graphics/items/advanced-crusher.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/advanced-crusher.png",
 	icon_size = 64,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
 	place_result = "advanced-crusher",
@@ -67,7 +67,7 @@ data:extend({
 	graphics_set =
     {
         animation = {
-            filename = "__Nexus-Graphics__/graphics/entity/advanced-crusher.png",
+            filename = "__Nexus-Graphics-Updated__/graphics/entity/advanced-crusher.png",
             size = {512,512},
             width = 512,
             height = 512,
@@ -87,7 +87,7 @@ data:extend({
             {
               animation = 
               {
-                filename = "__Nexus-Graphics__/graphics/entity/advanced-crusher-animation.png",
+                filename = "__Nexus-Graphics-Updated__/graphics/entity/advanced-crusher-animation.png",
                 size = {512,512},
                 width = 512,
                 height = 512,

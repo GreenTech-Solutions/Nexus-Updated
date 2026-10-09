@@ -10,7 +10,7 @@ data:extend({
 {
     name = "zero-point-energy-engine-injector-right",
 	type = "assembling-machine",
-    icon = "__Nexus-Graphics__/graphics/items/zero-point-energy-engine-injector-right.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/zero-point-energy-engine-injector-right.png",
 	icon_size = 64,
     --flags = {"placeable-neutral", "placeable-player", "player-creation"},
 	flags = {"placeable-neutral", "player-creation", "not-rotatable"},
@@ -69,7 +69,7 @@ fluid_boxes =
 	graphics_set =
     {
         animation = {
-            filename = "__Nexus-Graphics__/graphics/entity/zero_point_energy_engine/zero_point_energy_engine_injector_right/zero-point-energy-engine-injector-right.png",
+            filename = "__Nexus-Graphics-Updated__/graphics/entity/zero_point_energy_engine/zero_point_energy_engine_injector_right/zero-point-energy-engine-injector-right.png",
             size = {1080, 1080},
             scale = 0.58,
             shift = {-0.97, 0.2},
@@ -85,7 +85,7 @@ fluid_boxes =
 			constant_speed = true,				----dauerhafte animation----
               animation = 
               {
-                filename = "__Nexus-Graphics__/graphics/entity/zero_point_energy_engine/zero_point_energy_engine_injector_right/zero-point-energy-engine-injector-right-animation.png",
+                filename = "__Nexus-Graphics-Updated__/graphics/entity/zero_point_energy_engine/zero_point_energy_engine_injector_right/zero-point-energy-engine-injector-right-animation.png",
                 size = {1080, 1080},
 				scale = 0.58,
 				line_length = 3,

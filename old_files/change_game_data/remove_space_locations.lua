@@ -1,5 +1,5 @@
 
-local asteroid_util = require("__Nexus__.change_game_data.change_asteroiden_spawn")
+local asteroid_util = require("__Nexus-Updated__.change_game_data.change_asteroiden_spawn")
 --local asteroid_util = require("__space-age__.prototypes.planet.asteroid-spawn-definitions")
 
 --data.raw.planet.aquilo.asteroid_spawn_influence = 0,

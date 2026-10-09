@@ -28,7 +28,7 @@ planetsetting.map_gen_settings.autoplace_settings.entity.settings["magma-energy"
 local magma_energy = {
   type = "resource",
   name = "magma-energy",
-  icon = "__Nexus__/graphics/items/magma-energy.png",
+  icon = "__Nexus-Updated__/graphics/items/magma-energy.png",
   --icon_size = 64,
   flags = {"placeable-neutral"},
   category = "basic-fluid",
@@ -78,7 +78,7 @@ local magma_energy = {
   {
     sheet =
       {
-		filename = "__Nexus__/graphics/icons/magma_energy/magma-energy.png",
+		filename = "__Nexus-Updated__/graphics/icons/magma_energy/magma-energy.png",
 	    width = 168,
 		height = 124,
 		shift = util.by_pixel( 0.5, -2.0),
@@ -97,7 +97,7 @@ local magma_energy = {
         render_layer = "decorative",
         animation =
         {
-		  filename = "__Nexus__/graphics/icons/magma_energy/magma-energy-animation.png",
+		  filename = "__Nexus-Updated__/graphics/icons/magma_energy/magma-energy-animation.png",
 		  width = 62,
 		  height = 46,
    	      shift = util.by_pixel( 1.5, 3.5),
@@ -188,7 +188,7 @@ local magma_energy = {
   {
     type = "resource",
     name = "magma-energy",
-    icon = "__Nexus__/graphics/icons/magma_energy/magma-energy.png",
+    icon = "__Nexus-Updated__/graphics/icons/magma_energy/magma-energy.png",
     flags = {"placeable-neutral"},
     category = "basic-fluid",
     subgroup = "mineable-fluids",
@@ -240,7 +240,7 @@ local magma_energy = {
       {
         count = 1,
         render_layer = "decorative",
-        animation = util.sprite_load("__Nexus__/graphics/icons/magma_energy/magma-energy-animation.png",
+        animation = util.sprite_load("__Nexus-Updated__/graphics/icons/magma_energy/magma-energy-animation.png",
         {
           priority = "extra-high",
           scale = 0.5,
@@ -313,7 +313,7 @@ data:extend({
   {
     type = "resource",
     name = "magma-energy",
-    icon = "__Nexus__/graphics/resources/magma-energy.png",
+    icon = "__Nexus-Updated__/graphics/resources/magma-energy.png",
     flags = { "placeable-neutral" },
     --category = "basic-fluid",
     --subgroup = "mineable-fluids",
@@ -356,7 +356,7 @@ data:extend({
     stage_counts = { 0 },
     stages = {
       sheet = {
-        filename = "__Nexus__/graphics/resources/magma-energy.png",
+        filename = "__Nexus-Updated__/graphics/resources/magma-energy.png",
         priority = "extra-high",
         width = 128,
         height = 128,
