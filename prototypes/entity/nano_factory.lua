@@ -30,7 +30,7 @@ data:extend({
     {
       {
         production_type = "input",
-        pipe_picture = assembler2pipepictures(),
+        pipe_picture = util.table.deepcopy(require("__base__.prototypes.entity.assembler-pictures").assembler2pipepictures), -- 2.1: no global function any more
         pipe_covers = pipecoverspictures(),
         volume = 1000,
         pipe_connections = {{ flow_direction="input", direction = defines.direction.west, position = {-2, 0} }},
