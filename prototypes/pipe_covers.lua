@@ -1,5 +1,5 @@
 local function sprite(name)
-    return "__Nexus-Graphics__/graphics/pipe_covers/"..name..".png"
+    return "__Nexus-Graphics-Updated__/graphics/pipe_covers/"..name..".png"
 end
 
 empty_sprite = {

@@ -13,7 +13,7 @@ data:extend({
     type = "thruster",
     name = "photon-stream-thruster",
     flags = {"placeable-neutral", "placeable-player", "player-creation", "not-rotatable"},
-    icon = "__Nexus-Graphics__/graphics/items/photon-stream-thruster.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/photon-stream-thruster.png",
     collision_box = {{-1.7, -2.2}, {1.7, 2.2}},
     collision_mask = {layers={item=true, object=true, train=true, is_lower_object = true, is_object = true}},
     selection_box = {{-2, -2.5}, {2, 5.5}},
@@ -160,7 +160,7 @@ data:extend({
       },
       flame_effect =
       {
-        filename = "__Nexus-Graphics__/graphics/entity/thrusters/photon_stream_thruster/photon-stream-thruster-flame.png",
+        filename = "__Nexus-Graphics-Updated__/graphics/entity/thrusters/photon_stream_thruster/photon-stream-thruster-flame.png",
         width = 384,
         height = 832
       },
@@ -212,7 +212,7 @@ data:extend({
             priority = "high",
             animation_speed = 0.25,
             tint = {r = 1, b = 0.95, g = 0.97, a = 0.5},
-            filename = "__Nexus-Graphics__/graphics/entity/thrusters/photon_stream_thruster/photon-stream-thruster-smoke.png",
+            filename = "__Nexus-Graphics-Updated__/graphics/entity/thrusters/photon_stream_thruster/photon-stream-thruster-smoke.png",
             flags = { "smoke" }
           }
         },
@@ -245,7 +245,7 @@ data:extend({
             priority = "high",
             animation_speed = 0.25,
             tint = {r = 0.75, b = 0.75, g = 0.75, a = 1},
-            filename = "__Nexus-Graphics__/graphics/entity/thrusters/photon_stream_thruster/photon-stream-thruster-smoke-glow.png",
+            filename = "__Nexus-Graphics-Updated__/graphics/entity/thrusters/photon_stream_thruster/photon-stream-thruster-smoke-glow.png",
             flags = { "smoke" },
             draw_as_glow = true
           }
@@ -280,7 +280,7 @@ data:extend({
             priority = "high",
             animation_speed = 0.1,
             tint = {r = 1, b = 0.95, g = 0.97, a = 1.0},
-            filename = "__Nexus-Graphics__/graphics/entity/thrusters/photon_stream_thruster/photon-stream-thruster-smoke.png",
+            filename = "__Nexus-Graphics-Updated__/graphics/entity/thrusters/photon_stream_thruster/photon-stream-thruster-smoke.png",
             flags = { "smoke" }
           }
         }

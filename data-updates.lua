@@ -5,9 +5,9 @@
 --[[
 --Krastorio2-spaced-out compatibility
 if mods["Krastorio2-spaced-out"] then
-    require("__Nexus__.compatibility.Krastorio2-spaced-out.omega_lab_tech_card_fix")
-	require("__Nexus__.compatibility.Krastorio2-spaced-out.technology_fix")
-	require("__Nexus__.compatibility.Krastorio2-spaced-out.remove_tech")
+    require("__Nexus-Updated__.compatibility.Krastorio2-spaced-out.omega_lab_tech_card_fix")
+	require("__Nexus-Updated__.compatibility.Krastorio2-spaced-out.technology_fix")
+	require("__Nexus-Updated__.compatibility.Krastorio2-spaced-out.remove_tech")
 end
 --]]
 
@@ -29,7 +29,7 @@ end
 if mods["planet-muluna"] then
     ------------------------------------------------
 else
-	require("__Nexus__.compatibility.Fusion_Upgrade_Script.fusion_upgrade")
+	require("__Nexus-Updated__.compatibility.Fusion_Upgrade_Script.fusion_upgrade")
 end
 
 ----------------------------------------------------------------------------------------------------------
@@ -39,7 +39,7 @@ end
 if mods["lilys-cubeine"] then
     ------------------------------------------------
 else
-	require("__Nexus__.compatibility.Fusion_Upgrade_Script.fusion_upgrade")
+	require("__Nexus-Updated__.compatibility.Fusion_Upgrade_Script.fusion_upgrade")
 end
 
 ----------------------------------------------------------------------------------------------------------

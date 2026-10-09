@@ -10,7 +10,7 @@ data:extend({
 {
     name = "matter-stabilizer",
 	type = "assembling-machine",
-    icon = "__Nexus-Graphics__/graphics/items/matter-stabilizer.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/matter-stabilizer.png",
 	icon_size = 64,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
 	place_result = "matter-stabilizer",
@@ -67,7 +67,7 @@ data:extend({
 	graphics_set =
     {
         animation = {
-            filename = "__Nexus-Graphics__/graphics/entity/matter-stabilizer.png",
+            filename = "__Nexus-Graphics-Updated__/graphics/entity/matter-stabilizer.png",
             size = {512*2,512*2},
             shift = {0, 0},
 	        scale = 0.35,
@@ -80,7 +80,7 @@ data:extend({
             {
               animation = 
               {
-                filename = "__Nexus-Graphics__/graphics/entity/matter-stabilizer-animation.png",
+                filename = "__Nexus-Graphics-Updated__/graphics/entity/matter-stabilizer-animation.png",
                 size = {512*2,512*2},
                 shift = {0, 0},
 	            scale = 0.35,

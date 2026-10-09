@@ -1,5 +1,5 @@
 -- We sometimes need some logic functions
-local logic = require("__Nexus__.scripts.logic")
+local logic = require("__Nexus-Updated__.scripts.logic")
 local util = require("__core__.lualib.util")
 
 local gui = {}

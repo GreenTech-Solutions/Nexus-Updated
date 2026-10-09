@@ -1,5 +1,5 @@
 --local asteroid_functions = {}
---local asteroid_util = require("__Nexus__.change_game_data.change_asteroiden_spawn")
+--local asteroid_util = require("__Nexus-Updated__.change_game_data.change_asteroiden_spawn")
 
 --[[
 asteroid_functions.sol_trip =

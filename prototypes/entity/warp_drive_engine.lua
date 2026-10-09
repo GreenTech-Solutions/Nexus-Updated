@@ -16,7 +16,7 @@ data:extend({
     type = "thruster",
     name = "warp-drive-engine",
     flags = {"placeable-neutral", "placeable-player", "player-creation", "not-rotatable"},
-    icon = "__Nexus-Graphics__/graphics/items/warp-drive-engine.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/warp-drive-engine.png",
     collision_box = {{-1.4, -0.5}, {1.4, 2.2}},
     collision_mask = {layers={item=true, object=true, train=true, is_lower_object = true, is_object = true}},
     selection_box = {{-1.5, -0.5}, {1.5, 5.5}},
@@ -78,7 +78,7 @@ data:extend({
     dying_explosion = "thruster-explosion",
     graphics_set =
     {
-      animation = util.sprite_load("__Nexus-Graphics__/graphics/entity/thrusters/warp_drive_engine/warp-drive-engine",
+      animation = util.sprite_load("__Nexus-Graphics-Updated__/graphics/entity/thrusters/warp_drive_engine/warp-drive-engine",
                   {
                     animation_speed = 0.5,
                     frame_count = 6,
@@ -101,7 +101,7 @@ data:extend({
           enabled_by_name = true,
           animation =
           {
-            filename = "__Nexus-Graphics__/graphics/entity/thrusters/warp_drive_engine/warp-drive-engine-pipe-connection-1.png",
+            filename = "__Nexus-Graphics-Updated__/graphics/entity/thrusters/warp_drive_engine/warp-drive-engine-pipe-connection-1.png",
             width = 64,
 			height = 72,
 			shift = util.by_pixel( 38.0, 0),
@@ -114,7 +114,7 @@ data:extend({
           enabled_by_name = true,
           animation =
           {
-            filename = "__Nexus-Graphics__/graphics/entity/thrusters/warp_drive_engine/warp-drive-engine-pipe-connection-empty.png",
+            filename = "__Nexus-Graphics-Updated__/graphics/entity/thrusters/warp_drive_engine/warp-drive-engine-pipe-connection-empty.png",
             width = 384,
 			height = 832,
 			shift = util.by_pixel(0, 96),
@@ -127,7 +127,7 @@ data:extend({
           enabled_by_name = true,
           animation =
           {
-            filename = "__Nexus-Graphics__/graphics/entity/thrusters/warp_drive_engine/warp-drive-engine-pipe-connection-empty.png",
+            filename = "__Nexus-Graphics-Updated__/graphics/entity/thrusters/warp_drive_engine/warp-drive-engine-pipe-connection-empty.png",
             width = 384,
 			height = 832,
 			shift = util.by_pixel(0, 96),
@@ -140,7 +140,7 @@ data:extend({
           enabled_by_name = true,
           animation =
           {
-            filename = "__Nexus-Graphics__/graphics/entity/thrusters/warp_drive_engine/warp-drive-engine-pipe-connection-4.png",
+            filename = "__Nexus-Graphics-Updated__/graphics/entity/thrusters/warp_drive_engine/warp-drive-engine-pipe-connection-4.png",
             width = 64,
 			height = 72,
 			shift = util.by_pixel( -38, 0),
@@ -151,7 +151,7 @@ data:extend({
         {
           -- effect = "flicker",
 			    fadeout = true,
-			    animation = util.sprite_load("__Nexus-Graphics__/graphics/entity/thrusters/warp_drive_engine/warp-drive-engine-light",
+			    animation = util.sprite_load("__Nexus-Graphics-Updated__/graphics/entity/thrusters/warp_drive_engine/warp-drive-engine-light",
 				              {
 				                animation_speed = 0.5,
 								frame_count = 6,
@@ -164,7 +164,7 @@ data:extend({
       },
       flame_effect =
       {
-        filename = "__Nexus-Graphics__/graphics/entity/thrusters/warp_drive_engine/warp-drive-engine-flame.png",
+        filename = "__Nexus-Graphics-Updated__/graphics/entity/thrusters/warp_drive_engine/warp-drive-engine-flame.png",
         width = 384,
 		height = 832
       },
@@ -216,7 +216,7 @@ data:extend({
 			priority = "high",
 			animation_speed = 0.25,
 			tint = {r = 1, b = 0.95, g = 0.97, a = 0.5},
-			filename = "__Nexus-Graphics__/graphics/entity/thrusters/warp_drive_engine/warp-drive-engine-smoke.png",
+			filename = "__Nexus-Graphics-Updated__/graphics/entity/thrusters/warp_drive_engine/warp-drive-engine-smoke.png",
 			flags = { "smoke" }
           }
         },
@@ -249,7 +249,7 @@ data:extend({
             priority = "high",
             animation_speed = 0.25,
             tint = {r = 0.75, b = 0.75, g = 0.75, a = 1},
-            filename = "__Nexus-Graphics__/graphics/entity/thrusters/warp_drive_engine/warp-drive-engine-smoke-glow.png",
+            filename = "__Nexus-Graphics-Updated__/graphics/entity/thrusters/warp_drive_engine/warp-drive-engine-smoke-glow.png",
             flags = { "smoke" },
             draw_as_glow = true
           }
@@ -284,7 +284,7 @@ data:extend({
             priority = "high",
             animation_speed = 0.1,
             tint = {r = 1, b = 0.95, g = 0.97, a = 1.0},
-            filename = "__Nexus-Graphics__/graphics/entity/thrusters/warp_drive_engine/warp-drive-engine-smoke.png",
+            filename = "__Nexus-Graphics-Updated__/graphics/entity/thrusters/warp_drive_engine/warp-drive-engine-smoke.png",
             flags = { "smoke" }
           }
         }

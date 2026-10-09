@@ -18,7 +18,7 @@ data:extend({
   {
     type = "electric-pole",
     name = "omega-substation",
-    icon = "__Nexus-Graphics__/graphics/items/omega-substation.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/omega-substation.png",
 	icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.1, result = "omega-substation"},
@@ -55,7 +55,7 @@ data:extend({
       {
 
         {
-          filename = "__Nexus-Graphics__/graphics/entity/omega-substation.png",
+          filename = "__Nexus-Graphics-Updated__/graphics/entity/omega-substation.png",
           priority = "high",
           --[[width = 138,
           height = 270,

@@ -10,7 +10,7 @@ data:extend({
 {
     name = "atomar-separator",
 	type = "assembling-machine",
-    icon = "__Nexus-Graphics__/graphics/items/atomar-separator.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/atomar-separator.png",
 	icon_size = 64,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
 	place_result = "atomar-seperator",
@@ -77,7 +77,7 @@ data:extend({
 	graphics_set =
     {
         animation = {
-            filename = "__Nexus-Graphics__/graphics/entity/atomar-separator.png",
+            filename = "__Nexus-Graphics-Updated__/graphics/entity/atomar-separator.png",
             size = {512*2,512*2},
             shift = {1.5,-0.4},
 	        scale = 0.41,
@@ -90,7 +90,7 @@ data:extend({
             {
               animation = 
               {
-                filename = "__Nexus-Graphics__/graphics/entity/atomar-separator-animation.png",
+                filename = "__Nexus-Graphics-Updated__/graphics/entity/atomar-separator-animation.png",
                 size = {512*2,512*2},
                 shift = {1.5,-0.4},
 	            scale = 0.41,

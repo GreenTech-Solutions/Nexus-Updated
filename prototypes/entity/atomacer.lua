@@ -10,7 +10,7 @@ data:extend({
 {
     name = "atomacer",
 	type = "assembling-machine",
-    icon = "__Nexus-Graphics__/graphics/items/atomacer.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/atomacer.png",
 	icon_size = 64,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
 	place_result = "atomacer",
@@ -67,7 +67,7 @@ data:extend({
 	graphics_set =
     {
 	animation = {
-    filename = "__Nexus-Graphics__/graphics/entity/atomacer-animation.png",
+    filename = "__Nexus-Graphics-Updated__/graphics/entity/atomacer-animation.png",
     size = {1024, 1014},
     shift = {0.75, -0.55},
 	scale = 0.42,

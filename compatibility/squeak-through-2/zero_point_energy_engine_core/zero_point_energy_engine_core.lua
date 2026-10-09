@@ -6,7 +6,7 @@ local horizontal_animation = {
       layers = {
         -- Ebene 1: Die statische Grundgrafik (dein erstes Bild)
         {
-          filename = "__Nexus-Graphics__/graphics/entity/zero_point_energy_engine/zero_point_energy_engine_core/zero-point-energy-engine-core.png",
+          filename = "__Nexus-Graphics-Updated__/graphics/entity/zero_point_energy_engine/zero_point_energy_engine_core/zero-point-energy-engine-core.png",
           width = 1080,
           height = 1080,
           frame_count = 1,
@@ -16,7 +16,7 @@ local horizontal_animation = {
         },
         -- Ebene 2: Die eigentliche Animation (dein zweites Bild)
         {
-          filename = "__Nexus-Graphics__/graphics/entity/zero_point_energy_engine/zero_point_energy_engine_core/zero-point-energy-engine-core-animation.png",
+          filename = "__Nexus-Graphics-Updated__/graphics/entity/zero_point_energy_engine/zero_point_energy_engine_core/zero-point-energy-engine-core-animation.png",
           width = 1080,
           height = 1080,
           frame_count = 9, -- Beispiel: 10 Frames in deinem zweiten Bild
@@ -32,7 +32,7 @@ local horizontal_animation = {
 local vertical_animation = { layers = {
         -- Ebene 1: Die statische Grundgrafik (dein erstes Bild)
         {
-          filename = "__Nexus-Graphics__/graphics/entity/zero_point_energy_engine/zero_point_energy_engine_core/zero-point-energy-engine-core.png",
+          filename = "__Nexus-Graphics-Updated__/graphics/entity/zero_point_energy_engine/zero_point_energy_engine_core/zero-point-energy-engine-core.png",
           width = 1080,
           height = 1080,
           frame_count = 1,
@@ -42,7 +42,7 @@ local vertical_animation = { layers = {
         },
         -- Ebene 2: Die eigentliche Animation (dein zweites Bild)
         {
-          filename = "__Nexus-Graphics__/graphics/entity/zero_point_energy_engine/zero_point_energy_engine_core/zero-point-energy-engine-core-animation.png",
+          filename = "__Nexus-Graphics-Updated__/graphics/entity/zero_point_energy_engine/zero_point_energy_engine_core/zero-point-energy-engine-core-animation.png",
           width = 1080,
           height = 1080,
           frame_count = 9, -- Beispiel: 10 Frames in deinem zweiten Bild
@@ -64,7 +64,7 @@ data:extend({
     name = "zero-point-energy-engine-core",
 	type = "generator",
 	squeak_behaviour = false,										--compatibility with "squeak-through-2"
-    icon = "__Nexus-Graphics__/graphics/items/zero-point-energy-engine-core.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/zero-point-energy-engine-core.png",
 	icon_size = 64,
     --flags = {"placeable-neutral", "placeable-player", "player-creation"},
 	flags = {"placeable-neutral", "player-creation", "not-rotatable"},

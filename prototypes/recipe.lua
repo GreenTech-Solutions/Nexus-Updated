@@ -1,6 +1,6 @@
 --recipe.lua
 
-require("__Nexus__.prototypes.recipecategory")
+require("__Nexus-Updated__.prototypes.recipecategory")
 
 
 data:extend({
@@ -53,7 +53,7 @@ data:extend({
 {
 	name = "raw-matter-1",
 	type = "recipe",
-	icon = "__Nexus-Graphics__/graphics/items/raw-matter.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/items/raw-matter.png",
     enabled = false,
 	ingredients = {
 		{type = "item", name = "stone",amount = 1000},
@@ -94,7 +94,7 @@ data:extend({
 {
 	name = "raw-matter-2",
 	type = "recipe",
-	icon = "__Nexus-Graphics__/graphics/items/raw-matter.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/items/raw-matter.png",
     enabled = false,
 	ingredients = {
 		{type = "item", name = "iron-ore",amount = 100},
@@ -135,7 +135,7 @@ data:extend({
 {
 	name = "raw-matter-3",
 	type = "recipe",
-	icon = "__Nexus-Graphics__/graphics/items/raw-matter.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/items/raw-matter.png",
     enabled = false,
 	ingredients = {
 		{type = "item", name = "copper-ore",amount = 100},
@@ -176,7 +176,7 @@ data:extend({
 {
 	name = "raw-matter-4",
 	type = "recipe",
-	icon = "__Nexus-Graphics__/graphics/items/raw-matter.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/items/raw-matter.png",
     enabled = false,
 	ingredients = {
 		{type = "item", name = "coal",amount = 100},
@@ -217,7 +217,7 @@ data:extend({
 {
 	name = "raw-matter-5",
 	type = "recipe",
-	icon = "__Nexus-Graphics__/graphics/items/raw-matter.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/items/raw-matter.png",
     enabled = false,
 	ingredients = {
 		{type = "item", name = "gold-ore",amount = 20},
@@ -258,7 +258,7 @@ data:extend({
 {
 	name = "raw-matter-6",
 	type = "recipe",
-	icon = "__Nexus-Graphics__/graphics/items/raw-matter.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/items/raw-matter.png",
     enabled = false,
 	ingredients = {
 		{type = "item", name = "platin-ore",amount = 5},
@@ -299,7 +299,7 @@ data:extend({
 {
 	name = "raw-matter-7",
 	type = "recipe",
-	icon = "__Nexus-Graphics__/graphics/items/raw-matter.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/items/raw-matter.png",
     enabled = false,
 	ingredients = {
 		{type = "item", name = "scrap",amount = 50},
@@ -340,7 +340,7 @@ data:extend({
 {
 	name = "raw-matter-8",
 	type = "recipe",
-	icon = "__Nexus-Graphics__/graphics/items/raw-matter.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/items/raw-matter.png",
     enabled = false,
 	ingredients = {
 		{type = "item", name = "uranium-ore",amount = 100},
@@ -381,7 +381,7 @@ data:extend({
 {
 	name = "high-energetic-photonen-fluid-mk1",
 	type = "recipe",
-	icon = "__Nexus-Graphics__/graphics/items/high-energetic-photonen-fluid.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/items/high-energetic-photonen-fluid.png",
     enabled = false,
 --	ingredients = {
 --		{type = "item", name = "ionit-ore",amount = 20},
@@ -422,7 +422,7 @@ data:extend({
 {
 	name = "high-energetic-photonen-fluid-mk2",
 	type = "recipe",
-	icon = "__Nexus-Graphics__/graphics/items/high-energetic-photonen-fluid.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/items/high-energetic-photonen-fluid.png",
     enabled = false,
 	ingredients = {
 		{type = "item", name = "high-energy-crystal",amount = 1},
@@ -462,7 +462,7 @@ data:extend({
 {
 	name = "photonen-energy-fluid-mk1",
 	type = "recipe",
-	icon = "__Nexus-Graphics__/graphics/items/photonen-energy-fluid.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/items/photonen-energy-fluid.png",
     enabled = false,
 	ingredients = {
 		{type = "fluid", name = "high-energetic-photonen-fluid",amount = 100},
@@ -505,7 +505,7 @@ data:extend({
 {
 	name = "photonen-energy-fluid-mk2",
 	type = "recipe",
-	icon = "__Nexus-Graphics__/graphics/items/photonen-energy-fluid.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/items/photonen-energy-fluid.png",
     enabled = false,
 	ingredients = {
 		{type = "fluid", name = "high-energetic-photonen-fluid",amount = 100},
@@ -657,7 +657,7 @@ data:extend({
 ----------------------------------------------------------------
 {
 	name = "high-energetic-photonen-fluid-canister-drain",
-	icon = "__Nexus-Graphics__/graphics/items/high-energetic-photonen-fluid-canister.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/items/high-energetic-photonen-fluid-canister.png",
 	type = "recipe",
     enabled = false,
 	ingredients = {
@@ -798,7 +798,7 @@ data:extend({
 {
 	name = "molten-platin",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/molten-platin.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/molten-platin.png",
 	enabled = false,
 	ingredients = {
 		{type = "item", name = "platin-ore",amount = 5},
@@ -841,7 +841,7 @@ data:extend({
 {
 	name = "molten-gold",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/molten-gold.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/molten-gold.png",
 	enabled = false,
 	ingredients = {
 		{type = "item", name = "gold-ore",amount = 5},
@@ -884,7 +884,7 @@ data:extend({
 {
 	name = "liquid-coal-matter",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/liquid-coal-matter.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/liquid-coal-matter.png",
 	enabled = false,
 	ingredients = {
 		{type = "item", name = "coal",amount = 100},
@@ -925,7 +925,7 @@ data:extend({
 {
 	name = "antimatter",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/antimatter.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/antimatter.png",
 	enabled = false,
 	ingredients = {
 		{type = "item", name = "critical-photon-fuel-rod",amount = 1}
@@ -965,7 +965,7 @@ data:extend({
 {
 	name = "exotic-matter",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/exotic-matter.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/exotic-matter.png",
 	enabled = false,
 	ingredients = {
 		{type = "item", name = "critical-photon-fuel-rod",amount = 1}
@@ -1005,7 +1005,7 @@ data:extend({
 {
 	name = "zero-point-energy-anti-proton",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/zero-point-energy-anti-proton.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/zero-point-energy-anti-proton.png",
 	enabled = false,
 	ingredients = {
 		{type = "fluid", name = "raw-matter",amount = 25}
@@ -1045,7 +1045,7 @@ data:extend({
 {
 	name = "zero-point-energy-anti-neutron",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/zero-point-energy-anti-neutron.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/zero-point-energy-anti-neutron.png",
 	enabled = false,
 	ingredients = {
 		{type = "fluid", name = "raw-matter",amount = 25}
@@ -1085,7 +1085,7 @@ data:extend({
 {
 	name = "zero-point-energy-anti-quarks",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/zero-point-energy-anti-quarks.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/zero-point-energy-anti-quarks.png",
 	enabled = false,
 	ingredients = {
 		{type = "fluid", name = "raw-matter",amount = 25}
@@ -1125,7 +1125,7 @@ data:extend({
 {
 	name = "zero-point-energy-anti-leptonen",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/zero-point-energy-anti-leptonen.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/zero-point-energy-anti-leptonen.png",
 	enabled = false,
 	ingredients = {
 		{type = "fluid", name = "raw-matter",amount = 25}
@@ -1169,7 +1169,7 @@ data:extend({
 {
 	name = "element-882-separate",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/promethium.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/promethium.png",
 	enabled = false,
 	ingredients = {
 		{type = "fluid", name = "high-energetic-photonen-fluid",amount = 1},
@@ -1216,7 +1216,7 @@ data:extend({
 {
 	name = "omega-alloy",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/omega-alloy.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/omega-alloy.png",
 	enabled = false,
 	ingredients = {
 		{type = "fluid", name = "high-energetic-photonen-fluid",amount = 200},
@@ -1262,7 +1262,7 @@ data:extend({
 {
 	name = "gold-plate",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/gold-plate.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/gold-plate.png",
 	enabled = false,
 	ingredients = {
 		{type = "fluid", name = "molten-gold",amount = 10}
@@ -1303,7 +1303,7 @@ data:extend({
 {
 	name = "critical-photon-cube-stabilization",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/critical-photon-cube.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/critical-photon-cube.png",
 	enabled = false,
 	allow_inserter_overload = false,
 	overload_multiplier = 0,
@@ -1333,7 +1333,7 @@ data:extend({
 {
 	name = "singularity-crystal-core-13-stabilization",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/singularity-crystal-core-13.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/singularity-crystal-core-13.png",
 	enabled = false,
 	allow_inserter_overload = false,
 	overload_multiplier = 0,
@@ -1363,7 +1363,7 @@ data:extend({
 {
 	name = "singularity-crystal-core-65-stabilization",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/singularity-crystal-core-65.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/singularity-crystal-core-65.png",
 	enabled = false,
 	allow_inserter_overload = false,
 	overload_multiplier = 0,
@@ -1393,7 +1393,7 @@ data:extend({
 {
 	name = "singularity-crystal-core-119-stabilization",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/singularity-crystal-core-119.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/singularity-crystal-core-119.png",
 	enabled = false,
 	allow_inserter_overload = false,
 	overload_multiplier = 0,
@@ -1423,7 +1423,7 @@ data:extend({
 {
 	name = "singularity-crystal-core-313-stabilization",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/singularity-crystal-core-313.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/singularity-crystal-core-313.png",
 	enabled = false,
 	allow_inserter_overload = false,
 	overload_multiplier = 0,
@@ -1453,7 +1453,7 @@ data:extend({
 {
 	name = "singularity-crystal-core-412-stabilization",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/singularity-crystal-core-412.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/singularity-crystal-core-412.png",
 	enabled = false,
 	allow_inserter_overload = false,
 	overload_multiplier = 0,
@@ -1483,7 +1483,7 @@ data:extend({
 {
 	name = "dark-matter-crystal-stabilization",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/dark-matter-crystal.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/dark-matter-crystal.png",
 	enabled = false,
 	allow_inserter_overload = false,
 	overload_multiplier = 0,
@@ -1513,7 +1513,7 @@ data:extend({
 {
 	name = "critical-photon-cube-production-mk1",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/critical-photon-cube.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/critical-photon-cube.png",
 	enabled = false,
 	allow_inserter_overload = false,
 	overload_multiplier = 0,
@@ -1554,7 +1554,7 @@ data:extend({
 {
 	name = "critical-photon-cube-production-mk2",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/critical-photon-cube.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/critical-photon-cube.png",
 	enabled = false,
 	allow_inserter_overload = false,
 	overload_multiplier = 0,
@@ -1597,7 +1597,7 @@ data:extend({
 {
 	name = "platin-plate",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/platin-plate.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/platin-plate.png",
 	enabled = false,
 	ingredients = {
 		{type = "fluid", name = "molten-platin",amount = 10}
@@ -1638,7 +1638,7 @@ data:extend({
 {
 	name = "graphit",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/graphit-1.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/graphit-1.png",
 	enabled = false,
 	ingredients = {
 		{type = "fluid", name = "high-energetic-photonen-fluid",amount = 10},
@@ -1678,7 +1678,7 @@ data:extend({
 {
 	name = "diamond",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/diamond-2.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/diamond-2.png",
 	enabled = false,
 	ingredients = {
 		{type = "fluid", name = "high-energetic-photonen-fluid",amount = 2000},
@@ -1718,7 +1718,7 @@ data:extend({
 {
 	name = "advanced-coil",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/advanced-coil.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/advanced-coil.png",
 	enabled = false,
 	ingredients = {
 		{type = "item", name = "gold-wire",amount = 100},
@@ -1759,7 +1759,7 @@ data:extend({
 {
 	name = "gold-wire",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/gold-wire.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/gold-wire.png",
 	enabled = false,
 	ingredients = {
 		{type = "item", name = "gold-plate",amount = 1}
@@ -1798,7 +1798,7 @@ data:extend({
 {
 	name = "omega-inductor",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/omega-inductor.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/omega-inductor.png",
 	enabled = false,
 	ingredients = {
 		{type = "item", name = "omega-beam",amount = 2},
@@ -1839,7 +1839,7 @@ data:extend({
 {
 	name = "omega-beam",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/omega-beam.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/omega-beam.png",
 	enabled = false,
 	ingredients = {
 		{type = "item", name = "omega-alloy",amount = 1},
@@ -1879,7 +1879,7 @@ data:extend({
 {
 	name = "omega-gear",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/omega-gear.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/omega-gear.png",
 	enabled = false,
 	ingredients = {
 		{type = "item", name = "omega-alloy",amount = 1},
@@ -1919,7 +1919,7 @@ data:extend({
 {
 	name = "silica-rich-sand",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/silica-rich-sand.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/silica-rich-sand.png",
 	enabled = false,
 	ingredients = {
 		{type = "item", name = "stone",amount = 10}
@@ -1940,7 +1940,7 @@ data:extend({
 {
 	name = "tempered-glass",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/tempered-glass.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/tempered-glass.png",
 	enabled = false,
 	ingredients = {
 		{type = "item", name = "silica-rich-sand",amount = 10},
@@ -1962,7 +1962,7 @@ data:extend({
 {
 	name = "advanced-filter",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/advanced-filter.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/advanced-filter.png",
 	enabled = false,
 	ingredients = {
 		{type = "item", name = "omega-beam",amount = 4},
@@ -2003,7 +2003,7 @@ data:extend({
 {
 	name = "gold-foil",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/gold-foil-2.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/gold-foil-2.png",
 	enabled = false,
 	ingredients = {
 		{type = "item", name = "gold-plate",amount = 1}
@@ -2042,7 +2042,7 @@ data:extend({
 {
 	name = "organic-mesh",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/organic-mesh-1.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/organic-mesh-1.png",
 	enabled = false,
 	ingredients = {
 		{type = "item", name = "bioflux",amount = 8},
@@ -2078,7 +2078,7 @@ data:extend({
 {
 	name = "platin-mesh",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/platin-mesh.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/platin-mesh.png",
 	enabled = false,
 	ingredients = {
 		{type = "item", name = "platin-plate",amount = 1}
@@ -2117,7 +2117,7 @@ data:extend({
 {
 	name = "gold-foil-mesh",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/gold-foil-mesh.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/gold-foil-mesh.png",
 	enabled = false,
 	ingredients = {
 		{type = "item", name = "platin-mesh",amount = 1},
@@ -2158,7 +2158,7 @@ data:extend({
 {
 	name = "thermal-plate",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/thermal-plate.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/thermal-plate.png",
 	enabled = false,
 	ingredients = {
 		{type = "item", name = "gold-foil-mesh",amount = 2},
@@ -2200,7 +2200,7 @@ data:extend({
 {
 	name = "omega-transformer",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/omega-transformer.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/omega-transformer.png",
 	enabled = false,
 	ingredients = {
 		{type = "item", name = "gold-foil-mesh",amount = 4},
@@ -2242,7 +2242,7 @@ data:extend({
 {
 	name = "promethium-lens",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/promethium-lens.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/promethium-lens.png",
 	enabled = false,
 	ingredients = {
 		{type = "item", name = "tempered-glass",amount = 10},
@@ -2266,7 +2266,7 @@ data:extend({
 {
 	name = "advanced-microchip",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/advanced-microchip.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/advanced-microchip.png",
 	enabled = false,
 	ingredients = {
 		{type = "item", name = "electronic-memory",amount = 100},
@@ -2308,7 +2308,7 @@ data:extend({
 {
 	name = "electronic-memory",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/electronic-memory.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/electronic-memory.png",
 	enabled = false,
 	ingredients = {
 		{type = "item", name = "organic-mesh",amount = 1},
@@ -2349,7 +2349,7 @@ data:extend({
 {
 	name = "electronic-triode",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/electronic-triode.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/electronic-triode.png",
 	enabled = false,
 	ingredients = {
 		{type = "item", name = "organic-mesh",amount = 10},
@@ -2392,7 +2392,7 @@ data:extend({
 {
 	name = "photon-sensor",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/photon-sensor.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/photon-sensor.png",
 	enabled = false,
 	ingredients = {
 		{type = "item", name = "electronic-triode",amount = 20},
@@ -2438,7 +2438,7 @@ data:extend({
 {
 	name = "photon-chip",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/photon-chip.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/photon-chip.png",
 	enabled = false,
 	ingredients = {
 		{type = "item", name = "electronic-triode",amount = 20},
@@ -2485,7 +2485,7 @@ data:extend({
 {
 	name = "photon-processor",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/photon-processor.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/photon-processor.png",
 	enabled = false,
 	ingredients = {
 		{type = "item", name = "omega-transformer",amount = 4},
@@ -2532,7 +2532,7 @@ data:extend({
 {
 	name = "advanced-photon-processor",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/advanced-photon-processor.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/advanced-photon-processor.png",
 	enabled = false,
 	ingredients = {
 		{type = "item", name = "omega-transformer",amount = 10},
@@ -2705,7 +2705,7 @@ data:extend({
 {
 	name = "singularity-crystals-stage-1",
 	type = "recipe",
-	icon = "__Nexus-Graphics__/graphics/items/singularity-crystal-core-412.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/items/singularity-crystal-core-412.png",
 	enabled = false,
 	ingredients = {
 		{type = "fluid", name = "photonen-energy-fluid",amount = 60},
@@ -2749,7 +2749,7 @@ data:extend({
 {
 	name = "singularity-crystals-stage-2",
 	type = "recipe",
-	icon = "__Nexus-Graphics__/graphics/items/singularity-crystal-core-65.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/items/singularity-crystal-core-65.png",
 	enabled = false,
 	allow_inserter_overload = false,
 	overload_multiplier = 0,
@@ -2792,7 +2792,7 @@ data:extend({
 {
 	name = "singularity-crystals-stage-3",
 	type = "recipe",
-	icon = "__Nexus-Graphics__/graphics/items/singularity-crystal-core-119.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/items/singularity-crystal-core-119.png",
 	enabled = false,
 	allow_inserter_overload = false,
 	overload_multiplier = 0,
@@ -2835,7 +2835,7 @@ data:extend({
 {
 	name = "singularity-crystals-stage-4",
 	type = "recipe",
-	icon = "__Nexus-Graphics__/graphics/items/singularity-crystal-core-313.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/items/singularity-crystal-core-313.png",
 	enabled = false,
 	allow_inserter_overload = false,
 	overload_multiplier = 0,
@@ -2878,7 +2878,7 @@ data:extend({
 {
 	name = "singularity-crystals-stage-5",
 	type = "recipe",
-	icon = "__Nexus-Graphics__/graphics/items/singularity-crystal-core-412.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/items/singularity-crystal-core-412.png",
 	enabled = false,
 	allow_inserter_overload = false,
 	overload_multiplier = 0,
@@ -2921,7 +2921,7 @@ data:extend({
 {
 	name = "high-energy-crystal",
 	type = "recipe",
-	icon = "__Nexus-Graphics__/graphics/items/high-energy-crystal.png",
+	icon = "__Nexus-Graphics-Updated__/graphics/items/high-energy-crystal.png",
 	enabled = false,
 	ingredients = {
 		{type = "fluid", name = "photonen-energy-fluid",amount = 10},
@@ -2967,7 +2967,7 @@ data:extend({
 {
 	name = "advanced-fusion-fuel",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/advanced-fusion-fuel.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/advanced-fusion-fuel.png",
 	enabled = false,
 	ingredients = {
 		{type = "item", name = "fusion-power-cell",amount = 1},
@@ -3061,7 +3061,7 @@ data:extend({
 {
 	name = "warp-drive-engine",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/warp-drive-engine.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/warp-drive-engine.png",
 	enabled = false,
 	ingredients = {
 	    {type = "item", name = "warp-drive-frame",amount = 1},
@@ -3118,7 +3118,7 @@ data:extend({
 {
 	name = "warp-drive-frame",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/warp-drive-frame.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/warp-drive-frame.png",
 	enabled = false,
 	ingredients = {
 		{type = "item", name = "omega-alloy",amount = 3500},
@@ -3161,7 +3161,7 @@ data:extend({
 {
 	name = "exotic-matter-containment-fields-generator",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/exotic-matter-containment-fields-generator.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/exotic-matter-containment-fields-generator.png",
 	enabled = false,
 	ingredients = {
 		{type = "item", name = "advanced-photon-processor",amount = 400},
@@ -3209,7 +3209,7 @@ data:extend({
 {
 	name = "gravity-fields-generator",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/gravity-fields-generator.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/gravity-fields-generator.png",
 	enabled = false,
 	ingredients = {
 		{type = "item", name = "advanced-photon-processor",amount = 480},
@@ -3257,7 +3257,7 @@ data:extend({
 {
 	name = "antimatter-containment-fields-generator",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/antimatter-containment-fields-generator.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/antimatter-containment-fields-generator.png",
 	enabled = false,
 	ingredients = {
 		{type = "item", name = "advanced-photon-processor",amount = 600},
@@ -3305,7 +3305,7 @@ data:extend({
 {
 	name = "singularity-core",
 	type = "recipe",
-    icon = "__Nexus-Graphics__/graphics/items/singularity-core.png",
+    icon = "__Nexus-Graphics-Updated__/graphics/items/singularity-core.png",
 	enabled = false,
 	ingredients = {
 		{type = "fluid", name = "antimatter",amount = 10000},
