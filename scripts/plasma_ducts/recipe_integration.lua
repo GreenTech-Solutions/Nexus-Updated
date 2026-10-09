@@ -40,7 +40,7 @@ data:extend({
 	},
 	energy_required = 38,
 --	localised_description = "-----------------",
-	category = "atomar-assembler",
+	categories = {"atomar-assembler"},
 	subgroup = "plasma-duct",
 	order = "o-a",
 	--always_show_made_in = true,

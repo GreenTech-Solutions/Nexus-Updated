@@ -1837,35 +1837,9 @@ data:extend({
 ----------------------------------------------------------------
 -------FIX TECHNOLOGY PROMETHIUM-------
 
-{
-    type = "technology",
-    name = "kr-singularity-lab",
-    icon = "__Krastorio2Assets__/technologies/singularity-lab.png",
-    icon_size = 256,
-    unit = {
-      time = 30,
-      count = 10000,
-      ingredients = {
-        { "omega-automation-science-pack", 1 },
-        { "omega-logistic-science-pack", 1 },
-        { "omega-chemical-science-pack", 1 },
-        { "omega-production-science-pack", 1 },
-        { "omega-utility-science-pack", 1 },
-        { "kr-matter-tech-card",1},
-        { "kr-advanced-tech-card",1},
-        { "kr-singularity-tech-card",1},
-        { "omega-metallurgic-science-pack", 1 },
-        { "omega-agricultural-science-pack", 1 },
-        { "omega-electromagnetic-science-pack", 1 },
-        { "omega-cryogenic-science-pack", 1 },
-        { "promethium-science-pack", 1 },
-      },
-    },
-    prerequisites = { "promethium-science-pack" },
-    effects = {
-      { type = "unlock-recipe", recipe = "kr-singularity-lab" },
-    },
-},
+-- 2.1: the kr-singularity-lab override is gone. It was written for K2SO 1.6 (singularity lab after promethium
+-- science); K2SO 2.0 makes promethium-science-pack require kr-singularity-lab, and both together are a cycle that
+-- does not load. K2SO's own definition stays.
 ----------------------------------------------------------------
 {
     type = "technology",

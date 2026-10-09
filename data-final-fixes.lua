@@ -10,13 +10,22 @@
 
 --Any Science mods compatibility
 data.raw["lab"]["omega-lab"]["inputs"] = {} -- Clear all added sciences-packs
-for name ,tool in pairs(data.raw["tool"]) do
+-- 2.1: vanilla science packs became plain items, so packs are looked up in both tables
+local function science_packs()
+    local packs = {}
+    for _, type_name in pairs({"tool", "item"}) do
+        for _, pack in pairs(data.raw[type_name] or {}) do packs[#packs + 1] = pack end
+    end
+    return packs
+end
+
+for _, tool in pairs(science_packs()) do
     if tool["subgroup"] == "science-pack" then
         table.insert(data.raw["lab"]["omega-lab"]["inputs"], tool["name"])
     end
 end
 ------------------------------------------------------------------------------------------------------------
-for name ,tool in pairs(data.raw["tool"]) do
+for _, tool in pairs(science_packs()) do
     if tool["subgroup"] == "omega-science-pack" then
         table.insert(data.raw["lab"]["omega-lab"]["inputs"], tool["name"])
     end
