@@ -77,23 +77,11 @@ data:extend({
     },
     open_sound = { filename = "__Krastorio2Assets__/sounds/buildings/open.ogg", volume = 1 },
     close_sound = { filename = "__Krastorio2Assets__/sounds/buildings/close.ogg", volume = 1 },
-    min_perceived_performance = 0.25,
-    performance_to_sound_speedup = 0.5,
+    perceived_performance = { minimum = 0.25, performance_to_activity_rate = 0.5 }, -- 2.1 replaced the two old fields
     animation = {
       layers = {
-        {
-          filename = "__Krastorio2Assets__/buildings/antimatter-reactor/antimatter-reactor-light.png",
-          priority = "high",
-          width = 660,
-          height = 706,
-          shift = { 0, -0.5 },
-          frame_count = 1,
-          repeat_count = 30,
-          animation_speed = 0.9,
-          scale = 0.5,
-          draw_as_light = true,
-          blend_mode = "additive",
-        },
+        -- 2.1: no light layer: antimatter-reactor-light.png is gone from Krastorio2Assets (since 2.0.4), and Krastorio 2
+        -- draws its reactor without one
         {
           filename = "__Krastorio2Assets__/buildings/antimatter-reactor/antimatter-reactor-glow.png",
           priority = "high",

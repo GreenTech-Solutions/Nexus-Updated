@@ -226,7 +226,7 @@ data:extend({
 	fuel_value = "3600MJ",
 	fuel_top_speed_multiplier = 2.0,
 	fuel_acceleration_multiplier = 1,
-    fuel_category = "photon-fuel",
+    fuel_categories = {"photon-fuel"},
 	burnt_result = "omega-canister",
 	stack_size = 100,
 	weight = 50*kg,
@@ -278,7 +278,7 @@ data:extend({
 	subgroup = "critical-components",
 	order = "f-a",
 	weight = 2000*kg,
-	fuel_category = "photon-cube-energy",
+	fuel_categories = {"photon-cube-energy"},
     fuel_value = "2000MJ"
 },
 ----------------------------------------------------------------
@@ -679,7 +679,7 @@ data:extend({
 	subgroup = "fusion",
 	order = "h-d",
 	fuel_value = "100GJ",
-    fuel_category = "dark-matter-fuel",
+    fuel_categories = {"dark-matter-fuel"},
     stack_size = 50,
     default_import_location = "nexus",
     weight = 20*kg
@@ -1386,7 +1386,7 @@ data:extend({
     drop_sound = item_sounds.module_inventory_move,
     stack_size = 50,
     weight = 20 * kg,
-    effect = { consumption = -0.04, speed = 0.10, quality = -8, productivity = -0.8}
+    effect = { consumption = -0.04, speed = 0.10, quality = -0.8, productivity = -0.8} -- 2.1: quality effects are /10
 },
 ----------------------------------------------------------------
 {
@@ -1481,7 +1481,7 @@ data:extend({
     drop_sound = item_sounds.module_inventory_move,
     stack_size = 50,
     weight = 20 * kg,
-    effect = { consumption = 6.0, quality = 0.70, speed = 0.05 }
+    effect = { consumption = 6.0, quality = 0.07, speed = 0.05 } -- 2.1: quality effects are /10
 },
 
 ----------------------------------------------------------------

@@ -2,6 +2,59 @@
 local sounds = require("__base__.prototypes.entity.sounds")
 
 
+local horizontal_animation = {
+      layers = {
+        -- Ebene 1: Die statische Grundgrafik (dein erstes Bild)
+        {
+          filename = "__Nexus-Graphics__/graphics/entity/zero_point_energy_engine/zero_point_energy_engine_core/zero-point-energy-engine-core.png",
+          width = 1080,
+          height = 1080,
+          frame_count = 1,
+          repeat_count = 9, -- Muss mit frame_count der Animation übereinstimmen
+		  scale = 1,
+          shift = {0, 0}
+        },
+        -- Ebene 2: Die eigentliche Animation (dein zweites Bild)
+        {
+          filename = "__Nexus-Graphics__/graphics/entity/zero_point_energy_engine/zero_point_energy_engine_core/zero-point-energy-engine-core-animation.png",
+          width = 1080,
+          height = 1080,
+          frame_count = 9, -- Beispiel: 10 Frames in deinem zweiten Bild
+          line_length = 3,  -- Falls das Bild z.B. 2 Reihen à 5 Frames hat
+          animation_speed = 0.5,
+		  scale = 1,
+          shift = {0, 0},
+          draw_as_glow = true -- Optional: Animation leuchtet im Dunkeln
+        }
+      }
+    }
+
+local vertical_animation = { layers = {
+        -- Ebene 1: Die statische Grundgrafik (dein erstes Bild)
+        {
+          filename = "__Nexus-Graphics__/graphics/entity/zero_point_energy_engine/zero_point_energy_engine_core/zero-point-energy-engine-core.png",
+          width = 1080,
+          height = 1080,
+          frame_count = 1,
+          repeat_count = 9, -- Muss mit frame_count der Animation übereinstimmen
+		  scale = 0.51,
+          shift = {0,2.6},
+        },
+        -- Ebene 2: Die eigentliche Animation (dein zweites Bild)
+        {
+          filename = "__Nexus-Graphics__/graphics/entity/zero_point_energy_engine/zero_point_energy_engine_core/zero-point-energy-engine-core-animation.png",
+          width = 1080,
+          height = 1080,
+          frame_count = 9, -- Beispiel: 10 Frames in deinem zweiten Bild
+          line_length = 3,  -- Falls das Bild z.B. 2 Reihen à 5 Frames hat
+          animation_speed = 0.5,
+		  scale = 0.51,
+          shift = {0,2.6},
+          draw_as_glow = true -- Optional: Animation leuchtet im Dunkeln
+        }
+      }
+    }
+
 data:extend({
 
 ----------------------------------------------------------------
@@ -72,57 +125,13 @@ data:extend({
 	
 	
 	
-	horizontal_animation = {
-      layers = {
-        -- Ebene 1: Die statische Grundgrafik (dein erstes Bild)
-        {
-          filename = "__Nexus-Graphics__/graphics/entity/zero_point_energy_engine/zero_point_energy_engine_core/zero-point-energy-engine-core.png",
-          width = 1080,
-          height = 1080,
-          frame_count = 1,
-          repeat_count = 9, -- Muss mit frame_count der Animation übereinstimmen
-		  scale = 1,
-          shift = {0, 0}
-        },
-        -- Ebene 2: Die eigentliche Animation (dein zweites Bild)
-        {
-          filename = "__Nexus-Graphics__/graphics/entity/zero_point_energy_engine/zero_point_energy_engine_core/zero-point-energy-engine-core-animation.png",
-          width = 1080,
-          height = 1080,
-          frame_count = 9, -- Beispiel: 10 Frames in deinem zweiten Bild
-          line_length = 3,  -- Falls das Bild z.B. 2 Reihen à 5 Frames hat
-          animation_speed = 0.5,
-		  scale = 1,
-          shift = {0, 0},
-          draw_as_glow = true -- Optional: Animation leuchtet im Dunkeln
-        }
-      }
-    },
-	vertical_animation = { layers = {
-        -- Ebene 1: Die statische Grundgrafik (dein erstes Bild)
-        {
-          filename = "__Nexus-Graphics__/graphics/entity/zero_point_energy_engine/zero_point_energy_engine_core/zero-point-energy-engine-core.png",
-          width = 1080,
-          height = 1080,
-          frame_count = 1,
-          repeat_count = 9, -- Muss mit frame_count der Animation übereinstimmen
-		  scale = 0.51,
-          shift = {0,2.6},
-        },
-        -- Ebene 2: Die eigentliche Animation (dein zweites Bild)
-        {
-          filename = "__Nexus-Graphics__/graphics/entity/zero_point_energy_engine/zero_point_energy_engine_core/zero-point-energy-engine-core-animation.png",
-          width = 1080,
-          height = 1080,
-          frame_count = 9, -- Beispiel: 10 Frames in deinem zweiten Bild
-          line_length = 3,  -- Falls das Bild z.B. 2 Reihen à 5 Frames hat
-          animation_speed = 0.5,
-		  scale = 0.51,
-          shift = {0,2.6},
-          draw_as_glow = true -- Optional: Animation leuchtet im Dunkeln
-        }
-      }
-    },
+	-- 2.1: generators take their graphics per direction from `pictures`
+	pictures = {
+		north = { animation = vertical_animation },
+		south = { animation = vertical_animation },
+		east = { animation = horizontal_animation },
+		west = { animation = horizontal_animation },
+	},
 		
 		--},
 	
