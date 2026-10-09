@@ -37,7 +37,7 @@ omega_locomotive.energy_source = {
 if data.raw["item"]["high-energetic-photonen-fluid-canister"] then
     data.raw["item"]["high-energetic-photonen-fluid-canister"].burnt_result = "omega-canister"
     -- Make sure it falls into the correct category
-    data.raw["item"]["high-energetic-photonen-fluid-canister"].fuel_category = "photon-fuel"
+    data.raw["item"]["high-energetic-photonen-fluid-canister"].fuel_categories = {"photon-fuel"}
 end
 
 -- 4. WAGGONS
