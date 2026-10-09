@@ -76,7 +76,7 @@ data:extend({
             }
         },
     flow_length_in_ticks = 360,
-    vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact-1.ogg", volume = 0.65 },
     working_sound = {
       sound = {
         filename = "__base__/sound/storage-tank.ogg",
