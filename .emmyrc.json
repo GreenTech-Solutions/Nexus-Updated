@@ -1,0 +1,18 @@
+{
+  "$schema": "https://raw.githubusercontent.com/EmmyLuaLs/emmylua-analyzer-rust/refs/heads/main/crates/emmylua_code_analysis/resources/schema.json",
+  "workspace": {
+    "ignoreGlobs": ["old_files/**"]
+  },
+  "diagnostics": {
+    "disable": [
+      "assign-type-mismatch", "param-type-mismatch", "need-check-nil", "generic-constraint-mismatch",
+      "duplicate-index", "inject-field", "redefined-local", "duplicate-require"
+    ],
+    "globals": [
+      "pipecoverspictures", "assembler2pipepictures", "circuit_connector_definitions",
+      "assembling_machine_circuit_wire_max_distance", "default_circuit_wire_max_distance", "item_tints",
+      "sound_variations", "volume_multiplier", "stone_driving_sound", "accumulator_reflection",
+      "planet_catalogue_vulcanus", "kr_optimization_tech_card_name", "ModuleCategoryDefaults"
+    ]
+  }
+}

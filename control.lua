@@ -127,6 +127,8 @@ end)
 
 -- EVENT-HANDLER FÜR BAUEN UND ROBOTERBAUEN
 script.on_event({defines.events.on_built_entity, defines.events.on_robot_built_entity}, function(event)
+    -- (the checker does not see the fields of the events through the list of events; created_entity is from 1.1)
+    ---@diagnostic disable-next-line: undefined-field
     local entity = event.entity or event.created_entity 
     if not entity or not entity.valid then return end
 
@@ -151,7 +153,8 @@ script.on_event({defines.events.on_built_entity, defines.events.on_robot_built_e
 
             if event.name == defines.events.on_built_entity then
                 -- event.consumed_items (LuaInventory) stores the items we have to refund
-                local consumed_items = event.consumed_items
+                ---@diagnostic disable-next-line: undefined-field
+                local consumed_items = event.consumed_items --[[@as LuaInventory]]
                 if player and player.valid then
                     -- Place the stack in the player inventory
                     -- Remove transered items from consumed_items inventory
@@ -179,6 +182,7 @@ script.on_event({defines.events.on_built_entity, defines.events.on_robot_built_e
                 -- event.stack (LuaItemStack) stores  the items we have to refund
                 entity.surface.spill_item_stack{
                     position = entity.position, 
+                    ---@diagnostic disable-next-line: undefined-field
                     stack = event.stack,
                     enable_looted  = true,
                     allow_belts = false,
@@ -224,6 +228,7 @@ script.on_event({
     defines.events.on_entity_died,
     defines.events.script_raised_destroy
 }, function(event)
+    ---@diagnostic disable-next-line: undefined-field
     local entity = event.entity
     if not entity or not entity.valid then return end
 
