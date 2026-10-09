@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.4.1
+Date: 2026-10-09
+  Bugfixes:
+    - The mod loads without other 2.1 mods: four machines called assembler2pipepictures(), a global function 2.1 no longer has
+    - The omega tank's vehicle impact sound points to a file that exists
+---------------------------------------------------------------------------------------------------
 Version: 1.4.0
 Date: 2026-10-09
   Info:
