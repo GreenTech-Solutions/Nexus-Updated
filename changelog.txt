@@ -1,4 +1,16 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.4.0
+Date: 2026-10-09
+  Info:
+    - Published as Nexus-Updated, a fork of Nexus 1.3.4 by Karu_Kiruna
+  Features:
+    - Support Factorio 2.1
+  Bugfixes:
+    - The changelog shows in the game again
+    - The machine limit display updates at once when a limited machine is removed; it no longer registers a one-shot handler that is lost on save and can desync multiplayer
+  Locale:
+    - Strings for the Nexus-Threat-Updated admin-only commands, its Planet status button and its storm settings (en, de, ru, uk)
+---------------------------------------------------------------------------------------------------
 Version: 1.3.4
 Date: 05.07.2026
   Bugfixes:
