@@ -248,13 +248,10 @@ script.on_event({
         end
     end
 
-    -- Falls eine limitierte Maschine abgebaut wurde, GUI im NÄCHSTEN TICK aktualisieren
+    -- The limit GUI is updated at once. The entity still exists during these events, so it is left out of the count.
+    -- A one-shot script.on_nth_tick for the next tick was registered here before: it is lost on save and load, a second
+    -- removal in the same tick replaces it, and a client that joins in between does not have it (a desync).
     if logic.has_machine_limit(entity_name) then
-        -- Wir nutzen on_nth_tick für den exakt nächsten Tick, damit die Engine die Entity-Zahl bereits reduziert hat
-        local tick_to_run = event.tick + 1
-        script.on_nth_tick(tick_to_run, function(nth_event)
-            gui.update_entity_in_force(force, entity_name)
-            script.on_nth_tick(tick_to_run, nil) -- Handler sofort wieder entfernen
-        end)
+        gui.update_entity_in_force(force, entity_name, math.max(0, force.get_entity_count(entity_name) - 1))
     end
 end)
